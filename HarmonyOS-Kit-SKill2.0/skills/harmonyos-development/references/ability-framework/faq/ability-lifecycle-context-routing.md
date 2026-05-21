@@ -1,0 +1,118 @@
+# Ability/程序框架 FAQ（Ability、生命周期与 Context） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：HAR包中使用window作为Toast时无法引入页面组件
+  - 读取：sources/ability-framework/faq/0006-HAR包中使用window作为Toast时无法引入页面组件-faqs-package-structure-8.md
+- 关键词：HAR、HSP不能支持Ability、Page声明，限制的理由是什么？后续是否会支持
+  - 读取：sources/ability-framework/faq/0010-HAR、HSP不能支持Ability、Page声明，限制的理由是什么？后续是否会支持-faqs-package-structure-15.md
+- 关键词：HAP/HAR/HSP的关系是什么？是否都可以声明注册Ability和Page？三种类型分别推荐哪些的使用场景？选择原则是什么
+  - 读取：sources/ability-framework/faq/0014-HAP-HAR-HSP的关系是什么？是否都可以声明注册Ability和Page？三种类型分别推荐哪些的使用场景？选择原则是什么-faqs-package-structure-19.md
+- 关键词：在HAP中调用createModuleContext方法获取的Context是什么层级
+  - 读取：sources/ability-framework/faq/0017-在HAP中调用createModuleContext方法获取的Context是什么层级-faqs-package-structure-25.md
+- 关键词：如何实现在不使用UIAbility的情况下，能够模块化管理代码，并且各个模块之间可以相互路由跳转
+  - 读取：sources/ability-framework/faq/0019-如何实现在不使用UIAbility的情况下，能够模块化管理代码，并且各个模块之间可以相互路由跳转-faqs-package-structure-27.md
+- 关键词：如何实现跨模块的页面跳转功能
+  - 读取：sources/ability-framework/faq/0030-如何实现跨模块的页面跳转功能-faqs-package-structure-39.md
+- 关键词：程序框架（Ability）
+  - 读取：sources/ability-framework/faq/0001-程序框架（Ability）-faqs-ability-kit.md
+- 关键词：如何获取设备屏幕方向的状态变化通知
+  - 读取：sources/ability-framework/faq/0002-如何获取设备屏幕方向的状态变化通知-faqs-ability-1.md
+- 关键词：如何使用AbilityStage的生命周期函数
+  - 读取：sources/ability-framework/faq/0003-如何使用AbilityStage的生命周期函数-faqs-ability-2.md
+- 关键词：如何在UIAbility调用terminateSelf()后设置不保留最近任务列表中的快照
+  - 读取：sources/ability-framework/faq/0004-如何在UIAbility调用terminateSelf()后设置不保留最近任务列表中的快照-faqs-ability-4.md
+- 关键词：如何主动退出当前应用
+  - 读取：sources/ability-framework/faq/0005-如何主动退出当前应用-faqs-ability-5.md
+- 关键词：服务卡片EntryFormAbility生命周期回调函数在哪个ArkTS文件中调用
+  - 读取：sources/ability-framework/faq/0009-服务卡片EntryFormAbility生命周期回调函数在哪个ArkTS文件中调用-faqs-ability-16.md
+- 关键词：多Module应用通过startAbility()启动时报错
+  - 读取：sources/ability-framework/faq/0010-多Module应用通过startAbility()启动时报错-faqs-ability-20.md
+- 关键词：UIAbility在onBackground执行耗时操作时是否会影响另外一个UIAbility的onForeground
+  - 读取：sources/ability-framework/faq/0011-UIAbility在onBackground执行耗时操作时是否会影响另外一个UIAbility的onForeground-faqs-ability-26.md
+- 关键词：应用的进程启动过程是怎样的
+  - 读取：sources/ability-framework/faq/0012-应用的进程启动过程是怎样的-faqs-ability-28.md
+- 关键词：是否允许三方应用在手机设备上Fork进程
+  - 读取：sources/ability-framework/faq/0013-是否允许三方应用在手机设备上Fork进程-faqs-ability-29.md
+- 关键词：两个UIAbility之间可通过哪些方法实现数据传递
+  - 读取：sources/ability-framework/faq/0014-两个UIAbility之间可通过哪些方法实现数据传递-faqs-ability-31.md
+- 关键词：Extension类进程崩溃是否会导致主进程崩溃
+  - 读取：sources/ability-framework/faq/0015-Extension类进程崩溃是否会导致主进程崩溃-faqs-ability-32.md
+- 关键词：多个UIAbility是运行在一个进程还是多个进程中？三方应用是否支持应用运行在多个进程下？主进程结束了，会影响子进程的运行吗
+  - 读取：sources/ability-framework/faq/0016-多个UIAbility是运行在一个进程还是多个进程中？三方应用是否支持应用运行在多个进程下？主进程结束了，会影响子进程的运行吗-faqs-ability-34.md
+- 关键词：ExtensionAbility如何与主进程通信
+  - 读取：sources/ability-framework/faq/0017-ExtensionAbility如何与主进程通信-faqs-ability-35.md
+- 关键词：如何在页面中订阅UIAbility实例的生命周期变化
+  - 读取：sources/ability-framework/faq/0018-如何在页面中订阅UIAbility实例的生命周期变化-faqs-ability-36.md
+- 关键词：TaskPool里面是否可以使用EventHub
+  - 读取：sources/ability-framework/faq/0020-TaskPool里面是否可以使用EventHub-faqs-ability-38.md
+- 关键词：hdc shell命令是否支持schema uri模拟跳转
+  - 读取：sources/ability-framework/faq/0021-hdc-shell命令是否支持schema-uri模拟跳转-faqs-ability-39.md
+- 关键词：是否可以通过ApplicationContext启动UIAbility
+  - 读取：sources/ability-framework/faq/0022-是否可以通过ApplicationContext启动UIAbility-faqs-ability-40.md
+- 关键词：Stage模型与FA模型在进程内对象共享方面有哪些差异
+  - 读取：sources/ability-framework/faq/0023-Stage模型与FA模型在进程内对象共享方面有哪些差异-faqs-ability-50.md
+- 关键词：如何拉起浏览器应用
+  - 读取：sources/ability-framework/faq/0025-如何拉起浏览器应用-faqs-ability-58.md
+- 关键词：从一个UIAbility跳转到另外一个Ability时，是否支持自定义转场动画的设置？如何实现
+  - 读取：sources/ability-framework/faq/0026-从一个UIAbility跳转到另外一个Ability时，是否支持自定义转场动画的设置？如何实现-faqs-ability-62.md
+- 关键词：UIAbility和UIExtensionAbility有什么区别？分别推荐在什么场景使用
+  - 读取：sources/ability-framework/faq/0027-UIAbility和UIExtensionAbility有什么区别？分别推荐在什么场景使用-faqs-ability-65.md
+- 关键词：UIAbility/Page/Component之间的关系？如何搭配使用
+  - 读取：sources/ability-framework/faq/0028-UIAbility-Page-Component之间的关系？如何搭配使用-faqs-ability-66.md
+- 关键词：关于emitter、eventHub的使用场景
+  - 读取：sources/ability-framework/faq/0029-关于emitter、eventHub的使用场景-faqs-ability-68.md
+- 关键词：如何禁用窗口的全屏显示功能
+  - 读取：sources/ability-framework/faq/0030-如何禁用窗口的全屏显示功能-faqs-ability-69.md
+- 关键词：如何获取App版本号，版本名，屏幕分辨率等信息
+  - 读取：sources/ability-framework/faq/0031-如何获取App版本号，版本名，屏幕分辨率等信息-faqs-ability-71.md
+- 关键词：如何获取指定bundleFlags的Ability信息
+  - 读取：sources/ability-framework/faq/0032-如何获取指定bundleFlags的Ability信息-faqs-ability-72.md
+- 关键词：如何在UIAbility、页面和组件中获取UIAbilityContext
+  - 读取：sources/ability-framework/faq/0033-如何在UIAbility、页面和组件中获取UIAbilityContext-faqs-ability-73.md
+- 关键词：如何在工具类中获取Context
+  - 读取：sources/ability-framework/faq/0034-如何在工具类中获取Context-faqs-ability-74.md
+- 关键词：ApplicationContext、UIAbilityContext、Context的区别是什么
+  - 读取：sources/ability-framework/faq/0035-ApplicationContext、UIAbilityContext、Context的区别是什么-faqs-ability-75.md
+- 关键词：在使用UIAbilityContext时报401“The context must be a valid Context”的Context类型错误
+  - 读取：sources/ability-framework/faq/0036-在使用UIAbilityContext时报401“The-context-must-be-a-valid-Context”的Context类型错误-faqs-ability-76.md
+- 关键词：如何查询应用进程的pid信息
+  - 读取：sources/ability-framework/faq/0040-如何查询应用进程的pid信息-faqs-ability-81.md
+- 关键词：如何在App启动时让各种权限弹窗的申请自动弹出
+  - 读取：sources/ability-framework/faq/0044-如何在App启动时让各种权限弹窗的申请自动弹出-faqs-ability-92.md
+- 关键词：如果有多个UIAbility，如何判断应用进入后台
+  - 读取：sources/ability-framework/faq/0045-如果有多个UIAbility，如何判断应用进入后台-faqs-ability-94.md
+- 关键词：如何判断App的启动来源
+  - 读取：sources/ability-framework/faq/0047-如何判断App的启动来源-faqs-ability-99.md
+- 关键词：如何获取当前应用对应的UIAbility名称
+  - 读取：sources/ability-framework/faq/0048-如何获取当前应用对应的UIAbility名称-faqs-ability-100.md
+- 关键词：如何判断应用当前在前台/后台
+  - 读取：sources/ability-framework/faq/0049-如何判断应用当前在前台-后台-faqs-ability-101.md
+- 关键词：UIAbility在内存不足的情况下是否会被回收，若被回收是否支持页面栈恢复
+  - 读取：sources/ability-framework/faq/0052-UIAbility在内存不足的情况下是否会被回收，若被回收是否支持页面栈恢复-faqs-ability-110.md
+- 关键词：HarmonyOS是否限制App进程fork子进程，是否允许app里自带的可执行文件运行（fork+exec）执行，并通过ptrace方式读取自身进程？这种方式以后是否会限制并禁止
+  - 读取：sources/ability-framework/faq/0054-HarmonyOS是否限制App进程fork子进程，是否允许app里自带的可执行文件运行（fork+exec）执行，并通过ptrace方式读取自身进程？这种方式以后是否会限制并禁止-faqs-ability-112.md
+- 关键词：HarmonyOS提供了两种页面加载方式，两者有何区别，怎么选择
+  - 读取：sources/ability-framework/faq/0055-HarmonyOS提供了两种页面加载方式，两者有何区别，怎么选择-faqs-ability-113.md
+- 关键词：如何跳转到系统文件管理App界面
+  - 读取：sources/ability-framework/faq/0056-如何跳转到系统文件管理App界面-faqs-ability-116.md
+- 关键词：UIContext与Ability的关系，列举常见UIContext、Ability、UIAbilityContext的关系
+  - 读取：sources/ability-framework/faq/0058-UIContext与Ability的关系，列举常见UIContext、Ability、UIAbilityContext的关系-faqs-ability-118.md
+- 关键词：后台任务开发（Background Tasks）
+  - 读取：sources/ability-framework/faq/0059-后台任务开发（Background-Tasks）-faqs-background-tasks-kit.md
+- 关键词：如何在Stage模型中创建后台任务
+  - 读取：sources/ability-framework/faq/0060-如何在Stage模型中创建后台任务-faqs-background-tasks-1.md
+- 关键词：应用在后台如何继续执行业务
+  - 读取：sources/ability-framework/faq/0061-应用在后台如何继续执行业务-faqs-background-tasks-2.md
+- 关键词：应用运行时进程资源使用规格
+  - 读取：sources/ability-framework/faq/0063-应用运行时进程资源使用规格-faqs-background-tasks-6.md
+- 关键词：如何确认延迟任务WorkSchedulerExtensionAbility回调方法onWorkStart、onWorkStop实现是否正确、是否可以成功回调
+  - 读取：sources/ability-framework/faq/0064-如何确认延迟任务WorkSchedulerExtensionAbility回调方法onWorkStart、onWorkStop实现是否正确、是否可以成功回调-faqs-background-tasks-8.md
+- 关键词：如何查询后台任务中短时任务/长时任务/延迟任务/后台代理提醒相关的系统日志
+  - 读取：sources/ability-framework/faq/0065-如何查询后台任务中短时任务-长时任务-延迟任务-后台代理提醒相关的系统日志-faqs-background-tasks-9.md
+- 关键词：进程间通信（IPC）
+  - 读取：sources/ability-framework/faq/0066-进程间通信（IPC）-faqs-ipc-kit.md
+- 关键词：IPC跨进程通信中是否支持异步返回数据
+  - 读取：sources/ability-framework/faq/0067-IPC跨进程通信中是否支持异步返回数据-faqs-ipc-1.md
+- 关键词：点击服务卡片如何跳转至指定的页面
+  - 读取：sources/ability-framework/faq/0069-点击服务卡片如何跳转至指定的页面-faqs-form-1.md

@@ -1,0 +1,112 @@
+# Ability/程序框架 FAQ（程序包、模块与安装） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：HSP打包后，为什么会生成HAR包，它是否会导致App包大小膨胀
+  - 读取：sources/ability-framework/faq/0001-HSP打包后，为什么会生成HAR包，它是否会导致App包大小膨胀-faqs-package-structure-2.md
+- 关键词：从包管理的角度，保证代码安全的措施有哪些
+  - 读取：sources/ability-framework/faq/0002-从包管理的角度，保证代码安全的措施有哪些-faqs-package-structure-4.md
+- 关键词：如何理解App、HAP、HAR、HSP的关系
+  - 读取：sources/ability-framework/faq/0003-如何理解App、HAP、HAR、HSP的关系-faqs-package-structure-5.md
+- 关键词：HSP/HAR包中如何引用外部编译的so库文件
+  - 读取：sources/ability-framework/faq/0004-HSP-HAR包中如何引用外部编译的so库文件-faqs-package-structure-6.md
+- 关键词：SharedLibrary能否在配置文件中声明abilities、extensionAbilities标签
+  - 读取：sources/ability-framework/faq/0005-SharedLibrary能否在配置文件中声明abilities、extensionAbilities标签-faqs-package-structure-7.md
+- 关键词：业务模块HAR如何获取宿主HAP的数据
+  - 读取：sources/ability-framework/faq/0007-业务模块HAR如何获取宿主HAP的数据-faqs-package-structure-9.md
+- 关键词：如何安装打包出来的App包（通过什么命令安装）
+  - 读取：sources/ability-framework/faq/0008-如何安装打包出来的App包（通过什么命令安装）-faqs-package-structure-13.md
+- 关键词：如何判断应用可被卸载
+  - 读取：sources/ability-framework/faq/0009-如何判断应用可被卸载-faqs-package-structure-14.md
+- 关键词：是否允许HAR的循环依赖
+  - 读取：sources/ability-framework/faq/0011-是否允许HAR的循环依赖-faqs-package-structure-16.md
+- 关键词：HAP依赖HAR A，HAR A依赖HAR B。HAP能否调用HAR B提供的接口？如果不支持间接依赖HAR，设计的原因是什么
+  - 读取：sources/ability-framework/faq/0012-HAP依赖HAR-A，HAR-A依赖HAR-B。HAP能否调用HAR-B提供的接口？如果不支持间接依赖HAR，设计的原因是什么-faqs-package-structure-17.md
+- 关键词：通过resourceManager.getStringResource接口获取HSP资源文件报“Resource id invalid”错误
+  - 读取：sources/ability-framework/faq/0013-通过resourceManager.getStringResource接口获取HSP资源文件报“Resource-id-invalid”错误-faqs-package-structure-18.md
+- 关键词：如何正确引用HAR/HSP包模块
+  - 读取：sources/ability-framework/faq/0015-如何正确引用HAR-HSP包模块-faqs-package-structure-21.md
+- 关键词：从HAP的拆包中，如何区分是HAR和HSP
+  - 读取：sources/ability-framework/faq/0016-从HAP的拆包中，如何区分是HAR和HSP-faqs-package-structure-23.md
+- 关键词：如何获取当前HAP的BundleName
+  - 读取：sources/ability-framework/faq/0018-如何获取当前HAP的BundleName-faqs-package-structure-26.md
+- 关键词：Entry模块的HAP和Feature模块的HAP在使用和功能上的区别是什么
+  - 读取：sources/ability-framework/faq/0020-Entry模块的HAP和Feature模块的HAP在使用和功能上的区别是什么-faqs-package-structure-28.md
+- 关键词：在HSP export类时，ts文件是按.d.ts导出还是.d.ets导出
+  - 读取：sources/ability-framework/faq/0021-在HSP-export类时，ts文件是按.d.ts导出还是.d.ets导出-faqs-package-structure-29.md
+- 关键词：如何避免模块下文件打包进HAR包后，存在的不可预期的资料、配置或信息安全风险
+  - 读取：sources/ability-framework/faq/0022-如何避免模块下文件打包进HAR包后，存在的不可预期的资料、配置或信息安全风险-faqs-package-structure-31.md
+- 关键词：HAR包多账号如何上传
+  - 读取：sources/ability-framework/faq/0023-HAR包多账号如何上传-faqs-package-structure-32.md
+- 关键词：HSP包编译之后的.har文件的作用是什么
+  - 读取：sources/ability-framework/faq/0024-HSP包编译之后的.har文件的作用是什么-faqs-package-structure-33.md
+- 关键词：如何使HSP包版本号统一
+  - 读取：sources/ability-framework/faq/0025-如何使HSP包版本号统一-faqs-package-structure-34.md
+- 关键词：如何将多工程的HAP打包成一个App
+  - 读取：sources/ability-framework/faq/0026-如何将多工程的HAP打包成一个App-faqs-package-structure-35.md
+- 关键词：对于HAP包中引用的HSP包是否有数量限制
+  - 读取：sources/ability-framework/faq/0027-对于HAP包中引用的HSP包是否有数量限制-faqs-package-structure-36.md
+- 关键词：HAR如何转换为HSP
+  - 读取：sources/ability-framework/faq/0028-HAR如何转换为HSP-faqs-package-structure-37.md
+- 关键词：HAR包是否支持依赖传递
+  - 读取：sources/ability-framework/faq/0029-HAR包是否支持依赖传递-faqs-package-structure-38.md
+- 关键词：如何卸载debug包
+  - 读取：sources/ability-framework/faq/0031-如何卸载debug包-faqs-package-structure-40.md
+- 关键词：应用安装、卸载时是否有数据上报
+  - 读取：sources/ability-framework/faq/0032-应用安装、卸载时是否有数据上报-faqs-package-structure-41.md
+- 关键词：如何解决依赖的版本冲突问题
+  - 读取：sources/ability-framework/faq/0033-如何解决依赖的版本冲突问题-faqs-package-structure-43.md
+- 关键词：为什么同一App下的HSP文件vendor参数不同时会安装失败
+  - 读取：sources/ability-framework/faq/0034-为什么同一App下的HSP文件vendor参数不同时会安装失败-faqs-package-structure-44.md
+- 关键词：如何让两个HSP不相互依赖，使用对方的组件
+  - 读取：sources/ability-framework/faq/0035-如何让两个HSP不相互依赖，使用对方的组件-faqs-package-structure-45.md
+- 关键词：应用安装到设备的方式有哪些
+  - 读取：sources/ability-framework/faq/0036-应用安装到设备的方式有哪些-faqs-package-structure-47.md
+- 关键词：HAR和HSP的使用场景介绍
+  - 读取：sources/ability-framework/faq/0037-HAR和HSP的使用场景介绍-faqs-package-structure-48.md
+- 关键词：一个HSP模块如何快速切换成HAR模块
+  - 读取：sources/ability-framework/faq/0038-一个HSP模块如何快速切换成HAR模块-faqs-package-structure-49.md
+- 关键词：使用hdc命令安装release HAP包到设备时上报“INSTALL_FAILED_APP_SOURCE_NOT_TRUSTED”错误
+  - 读取：sources/ability-framework/faq/0040-使用hdc命令安装release-HAP包到设备时上报“INSTALL_FAILED_APP_SOURCE_NOT_TRUSTED”错误-faqs-package-structure-51.md
+- 关键词：如何查询应用包的名称、供应商、版本号、版本文本、安装时间、更新时间等信息
+  - 读取：sources/ability-framework/faq/0041-如何查询应用包的名称、供应商、版本号、版本文本、安装时间、更新时间等信息-faqs-package-structure-52.md
+- 关键词：如何安装打包出来的App包（通过什么命令安装）
+  - 读取：sources/ability-framework/faq/0042-如何安装打包出来的App包（通过什么命令安装）-faqs-package-structure-54.md
+- 关键词：应用免安装的限制、字段解释以及如何自测
+  - 读取：sources/ability-framework/faq/0043-应用免安装的限制、字段解释以及如何自测-faqs-package-structure-56.md
+- 关键词：安装HAP包报“failed to install bundle. install debug type not same”错误
+  - 读取：sources/ability-framework/faq/0044-安装HAP包报“failed-to-install-bundle.-install-debug-type-not-same”错误-faqs-package-structure-57.md
+- 关键词：除应用市场外，是否存在其它途径下载安装应用包
+  - 读取：sources/ability-framework/faq/0045-除应用市场外，是否存在其它途径下载安装应用包-faqs-package-structure-58.md
+- 关键词：如何判断当前应用程序是Debug包还是Release包
+  - 读取：sources/ability-framework/faq/0046-如何判断当前应用程序是Debug包还是Release包-faqs-package-structure-61.md
+- 关键词：如何判断应用程序是否安装
+  - 读取：sources/ability-framework/faq/0047-如何判断应用程序是否安装-faqs-package-structure-62.md
+- 关键词：如何跨HSP包调用rawfile目录下的文件
+  - 读取：sources/ability-framework/faq/0048-如何跨HSP包调用rawfile目录下的文件-faqs-package-structure-63.md
+- 关键词：如何获取应用包的签名指纹信息，即.p12文件信息
+  - 读取：sources/ability-framework/faq/0049-如何获取应用包的签名指纹信息，即.p12文件信息-faqs-package-structure-64.md
+- 关键词：使用发布证书进行调试时出现安装错误: Install Failed: error: failed to install bundle.
+  - 读取：sources/ability-framework/faq/0050-使用发布证书进行调试时出现安装错误-Install-Failed-error-failed-to-install-bundle.-faqs-package-structure-65.md
+- 关键词：使用HSP的多包场景下，直接崩溃并产生cppcrash异常日志，错误信息为resolveBufferCallback get buffer failed
+  - 读取：sources/ability-framework/faq/0051-使用HSP的多包场景下，直接崩溃并产生cppcrash异常日志，错误信息为resolveBufferCallback-get-buffer-failed-faqs-package-structure-66.md
+- 关键词：HAP包中的“--BEGIN CERTIFICATE--”是什么格式的数据
+  - 读取：sources/ability-framework/faq/0052-HAP包中的“-BEGIN-CERTIFICATE-”是什么格式的数据-faqs-package-structure-67.md
+- 关键词：sign包和unsign包产物之间是否有差异
+  - 读取：sources/ability-framework/faq/0053-sign包和unsign包产物之间是否有差异-faqs-package-structure-68.md
+- 关键词：如何在应用内共享HSP
+  - 读取：sources/ability-framework/faq/0054-如何在应用内共享HSP-faqs-package-structure-69.md
+- 关键词：如何通过代码获取Hap包的打包时间
+  - 读取：sources/ability-framework/faq/0055-如何通过代码获取Hap包的打包时间-faqs-package-structure-70.md
+- 关键词：应用静态快捷方式如何接入X键
+  - 读取：sources/ability-framework/faq/0056-应用静态快捷方式如何接入X键-faqs-package-structure-71.md
+- 关键词：部署HAP时上报“Failure[INSTALL_FAILED_SIZE_TOO_LARGE] error while deploying hap”错误
+  - 读取：sources/ability-framework/faq/0006-部署HAP时上报“Failure[INSTALL_FAILED_SIZE_TOO_LARGE]-error-while-deploying-hap”错误-faqs-ability-13.md
+- 关键词：如何实现通过调用其他已安装的应用来打开特定文件
+  - 读取：sources/ability-framework/faq/0024-如何实现通过调用其他已安装的应用来打开特定文件-faqs-ability-54.md
+- 关键词：有了代码签名特性后，开发者的so文件在调试、发布等阶段该如何部署
+  - 读取：sources/ability-framework/faq/0041-有了代码签名特性后，开发者的so文件在调试、发布等阶段该如何部署-faqs-ability-82.md
+- 关键词：开发非UI功能，使用ts开发而非ets开发对应用有哪些影响（内存、CPU、hap大小等方面）
+  - 读取：sources/ability-framework/faq/0046-开发非UI功能，使用ts开发而非ets开发对应用有哪些影响（内存、CPU、hap大小等方面）-faqs-ability-98.md
+- 关键词：如何获取设备上安装的应用列表数据
+  - 读取：sources/ability-framework/faq/0051-如何获取设备上安装的应用列表数据-faqs-ability-104.md

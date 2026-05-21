@@ -1,0 +1,46 @@
+# ArkUI 开发 FAQ（手势与事件） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何对手势事件进行限流防止连续识别，例如500ms内不允许点击事件重复触发？如何对多个手势进行统一限流
+  - 读取：sources/arkui-development/faq/0002-如何对手势事件进行限流防止连续识别，例如500ms内不允许点击事件重复触发？如何对多个手势进行统一限流-faqs-arkui-394.md
+- 关键词：如何在长按手势回调方法里获取手指触摸点的坐标
+  - 读取：sources/arkui-development/faq/0004-如何在长按手势回调方法里获取手指触摸点的坐标-faqs-arkui-4.md
+- 关键词：TextInput的onSubmit事件如何使用
+  - 读取：sources/arkui-development/faq/0053-TextInput的onSubmit事件如何使用-faqs-arkui-87.md
+- 关键词：如何实现事件透传
+  - 读取：sources/arkui-development/faq/0105-如何实现事件透传-faqs-arkui-155.md
+- 关键词：焦点事件onBlur/onFocus回调无法触发
+  - 读取：sources/arkui-development/faq/0112-焦点事件onBlur-onFocus回调无法触发-faqs-arkui-165.md
+- 关键词：键盘移动焦点对象按下enter，为什么不会触发点击事件
+  - 读取：sources/arkui-development/faq/0116-键盘移动焦点对象按下enter，为什么不会触发点击事件-faqs-arkui-169.md
+- 关键词：多层组件嵌套Button，如何阻止事件传递
+  - 读取：sources/arkui-development/faq/0117-多层组件嵌套Button，如何阻止事件传递-faqs-arkui-170.md
+- 关键词：在容器组件嵌套的场景下，如何解决手势拖拽事件出现错乱的问题
+  - 读取：sources/arkui-development/faq/0118-在容器组件嵌套的场景下，如何解决手势拖拽事件出现错乱的问题-faqs-arkui-172.md
+- 关键词：当父组件绑定了onTouch，其子组件Button绑定了onClick，如何做到点击Button只响应Button的onClick，而不用响应父组件的onTouch
+  - 读取：sources/arkui-development/faq/0119-当父组件绑定了onTouch，其子组件Button绑定了onClick，如何做到点击Button只响应Button的onClick，而不用响应父组件的onTouch-faqs-arkui-174.md
+- 关键词：点击文本输入框，如何屏蔽系统默认键盘弹起行为
+  - 读取：sources/arkui-development/faq/0120-点击文本输入框，如何屏蔽系统默认键盘弹起行为-faqs-arkui-176.md
+- 关键词：如何阻止组件的鼠标事件冒泡到父组件
+  - 读取：sources/arkui-development/faq/0121-如何阻止组件的鼠标事件冒泡到父组件-faqs-arkui-177.md
+- 关键词：子组件事件能否传递到父组件
+  - 读取：sources/arkui-development/faq/0124-子组件事件能否传递到父组件-faqs-arkui-180.md
+- 关键词：文档中提到键鼠事件可以设置冒泡阻断，其他事件是否支持
+  - 读取：sources/arkui-development/faq/0125-文档中提到键鼠事件可以设置冒泡阻断，其他事件是否支持-faqs-arkui-181.md
+- 关键词：组件被隐藏后 onVisibleAreaChange 事件触发了两次
+  - 读取：sources/arkui-development/faq/0126-组件被隐藏后-onVisibleAreaChange-事件触发了两次-faqs-arkui-183.md
+- 关键词：触摸事件的TouchEvent调用stopPropagation时无法阻止事件分发
+  - 读取：sources/arkui-development/faq/0130-触摸事件的TouchEvent调用stopPropagation时无法阻止事件分发-faqs-arkui-188.md
+- 关键词：如何解决window创建的模态窗口默认焦点不在界面上，导致不响应返回事件的问题
+  - 读取：sources/arkui-development/faq/0142-如何解决window创建的模态窗口默认焦点不在界面上，导致不响应返回事件的问题-faqs-arkui-201.md
+- 关键词：ArkUI有没有在组件刷新后的回调事件
+  - 读取：sources/arkui-development/faq/0147-ArkUI有没有在组件刷新后的回调事件-faqs-arkui-209.md
+- 关键词：如何解决点击子组件模块区域会触发父组件的点击事件问题
+  - 读取：sources/arkui-development/faq/0174-如何解决点击子组件模块区域会触发父组件的点击事件问题-faqs-arkui-243.md
+- 关键词：当子组件触发触摸事件时，如果父组件也设置了触摸事件，如何解决父组件同时被触发的问题
+  - 读取：sources/arkui-development/faq/0175-当子组件触发触摸事件时，如果父组件也设置了触摸事件，如何解决父组件同时被触发的问题-faqs-arkui-244.md
+- 关键词：如何获取底部手势横条的高度
+  - 读取：sources/arkui-development/faq/0180-如何获取底部手势横条的高度-faqs-arkui-249.md
+- 关键词：如何实现点击输入框时会拉起软键盘，点击Button时软键盘关闭
+  - 读取：sources/arkui-development/faq/0188-如何实现点击输入框时会拉起软键盘，点击Button时软键盘关闭-faqs-arkui-265.md

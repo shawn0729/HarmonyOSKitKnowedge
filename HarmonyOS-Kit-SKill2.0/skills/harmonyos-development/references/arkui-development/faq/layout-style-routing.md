@@ -1,0 +1,42 @@
+# ArkUI 开发 FAQ（布局与样式） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：TimePicker组件中文本的颜色和大小是否可以自定义
+  - 读取：sources/arkui-development/faq/0058-TimePicker组件中文本的颜色和大小是否可以自定义-faqs-arkui-94.md
+- 关键词：ConstraintSize尺寸设置不生效
+  - 读取：sources/arkui-development/faq/0059-ConstraintSize尺寸设置不生效-faqs-arkui-95.md
+- 关键词：如何将背景颜色设置为透明
+  - 读取：sources/arkui-development/faq/0060-如何将背景颜色设置为透明-faqs-arkui-96.md
+- 关键词：如何自定义Video组件控制栏样式
+  - 读取：sources/arkui-development/faq/0061-如何自定义Video组件控制栏样式-faqs-arkui-97.md
+- 关键词：如何设置组件不同状态下的样式
+  - 读取：sources/arkui-development/faq/0062-如何设置组件不同状态下的样式-faqs-arkui-98.md
+- 关键词：Button组件如何设置渐变背景色
+  - 读取：sources/arkui-development/faq/0066-Button组件如何设置渐变背景色-faqs-arkui-103.md
+- 关键词：文本组件是否支持分段设置字体样式
+  - 读取：sources/arkui-development/faq/0076-文本组件是否支持分段设置字体样式-faqs-arkui-117.md
+- 关键词：XComponent组件如何设置背景颜色
+  - 读取：sources/arkui-development/faq/0084-XComponent组件如何设置背景颜色-faqs-arkui-126.md
+- 关键词：UI布局默认是多少vp为基准，以达到不同机器自适应
+  - 读取：sources/arkui-development/faq/0086-UI布局默认是多少vp为基准，以达到不同机器自适应-faqs-arkui-129.md
+- 关键词：控制中心的下拉背景实时模糊是如何实现的
+  - 读取：sources/arkui-development/faq/0098-控制中心的下拉背景实时模糊是如何实现的-faqs-arkui-145.md
+- 关键词：如何获取图片的宽高
+  - 读取：sources/arkui-development/faq/0099-如何获取图片的宽高-faqs-arkui-146.md
+- 关键词：外部容器Stack能否满足适应内部容器组件的圆角等样式
+  - 读取：sources/arkui-development/faq/0108-外部容器Stack能否满足适应内部容器组件的圆角等样式-faqs-arkui-159.md
+- 关键词：Stack布局设置Alignment.Bottom没有生效
+  - 读取：sources/arkui-development/faq/0109-Stack布局设置Alignment.Bottom没有生效-faqs-arkui-160.md
+- 关键词：布局是否支持css里的calc(100vh - 100px)类似能力
+  - 读取：sources/arkui-development/faq/0110-布局是否支持css里的calc(100vh-100px)类似能力-faqs-arkui-161.md
+- 关键词：Flex布局与w3c中的Flex是否有差异
+  - 读取：sources/arkui-development/faq/0155-Flex布局与w3c中的Flex是否有差异-faqs-arkui-220.md
+- 关键词：使用0x八位颜色设置渐变透明度为什么与#八位资源颜色值不同
+  - 读取：sources/arkui-development/faq/0176-使用0x八位颜色设置渐变透明度为什么与#八位资源颜色值不同-faqs-arkui-245.md
+- 关键词：如何实现背景跟随文字大小改变
+  - 读取：sources/arkui-development/faq/0177-如何实现背景跟随文字大小改变-faqs-arkui-246.md
+- 关键词：如何实现跨文件样式复用
+  - 读取：sources/arkui-development/faq/0194-如何实现跨文件样式复用-faqs-arkui-271.md
+- 关键词：如何完成挖孔屏的适配
+  - 读取：sources/arkui-development/faq/0197-如何完成挖孔屏的适配-faqs-arkui-274.md

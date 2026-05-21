@@ -1,0 +1,88 @@
+# 数据管理 FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何将PixelMap的数据存储到数据库中
+  - 读取：sources/data-management/faq/0001-如何将PixelMap的数据存储到数据库中-faqs-local-database-management-3.md
+- 关键词：多个相同BundleName的HAP包，使用preference数据如何共享
+  - 读取：sources/data-management/faq/0002-多个相同BundleName的HAP包，使用preference数据如何共享-faqs-local-database-management-4.md
+- 关键词：关于数据库存储的位置，以及存储的区别
+  - 读取：sources/data-management/faq/0003-关于数据库存储的位置，以及存储的区别-faqs-local-database-management-5.md
+- 关键词：卡片开发中如何实现数据持久化
+  - 读取：sources/data-management/faq/0004-卡片开发中如何实现数据持久化-faqs-local-database-management-6.md
+- 关键词：如何从数据库中获得特定类型的文件列表
+  - 读取：sources/data-management/faq/0005-如何从数据库中获得特定类型的文件列表-faqs-local-database-management-7.md
+- 关键词：如何使用Sqlite全文检索能力
+  - 读取：sources/data-management/faq/0006-如何使用Sqlite全文检索能力-faqs-local-database-management-9.md
+- 关键词：如何获知SQLite支持版本
+  - 读取：sources/data-management/faq/0007-如何获知SQLite支持版本-faqs-local-database-management-10.md
+- 关键词：通过RdbStore.query()获取resultSet对象，出现resultSet的rowCount返回结果为-1
+  - 读取：sources/data-management/faq/0008-通过RdbStore.query()获取resultSet对象，出现resultSet的rowCount返回结果为-1-faqs-local-database-management-11.md
+- 关键词：如何读取本地/预制数据库
+  - 读取：sources/data-management/faq/0009-如何读取本地-预制数据库-faqs-local-database-management-12.md
+- 关键词：用sqlite开发时，怎么保证数据库同一时间只能支持一个写操作？怎么创建索引
+  - 读取：sources/data-management/faq/0010-用sqlite开发时，怎么保证数据库同一时间只能支持一个写操作？怎么创建索引-faqs-local-database-management-14.md
+- 关键词：数据库查询失败 14800007
+  - 读取：sources/data-management/faq/0011-数据库查询失败-14800007-faqs-local-database-management-15.md
+- 关键词：RdbStore多线程安全注意事项
+  - 读取：sources/data-management/faq/0012-RdbStore多线程安全注意事项-faqs-local-database-management-16.md
+- 关键词：如何通过谓词查询方式获取数据
+  - 读取：sources/data-management/faq/0013-如何通过谓词查询方式获取数据-faqs-local-database-management-17.md
+- 关键词：数据库batchInsert和单个事务insert效率问题
+  - 读取：sources/data-management/faq/0014-数据库batchInsert和单个事务insert效率问题-faqs-local-database-management-18.md
+- 关键词：如果需要保存多张表，是创建一个数据库保存多张表还是创建多个数据库，每个数据库只保存一张表？使用的原则是什么
+  - 读取：sources/data-management/faq/0015-如果需要保存多张表，是创建一个数据库保存多张表还是创建多个数据库，每个数据库只保存一张表？使用的原则是什么-faqs-local-database-management-19.md
+- 关键词：relationalStore.getRdbStore 执行多次，参数相同，获得的是同一个数据库对象吗
+  - 读取：sources/data-management/faq/0016-relationalStore.getRdbStore-执行多次，参数相同，获得的是同一个数据库对象吗-faqs-local-database-management-20.md
+- 关键词：是否可以创建一个单例，一直持有数据库对象？这样有没有性能影响
+  - 读取：sources/data-management/faq/0017-是否可以创建一个单例，一直持有数据库对象？这样有没有性能影响-faqs-local-database-management-21.md
+- 关键词：应用的数据库db文件的目录的绝对路径
+  - 读取：sources/data-management/faq/0018-应用的数据库db文件的目录的绝对路径-faqs-local-database-management-22.md
+- 关键词：关系型数据库RDB支持哪些搜索能力
+  - 读取：sources/data-management/faq/0019-关系型数据库RDB支持哪些搜索能力-faqs-local-database-management-23.md
+- 关键词：创建KVManager时bundleName必须是本应用的包名吗
+  - 读取：sources/data-management/faq/0020-创建KVManager时bundleName必须是本应用的包名吗-faqs-local-database-management-24.md
+- 关键词：分布式对象必须将默认对象的每个属性值初始化为undefined，以防止数据倒灌
+  - 读取：sources/data-management/faq/0021-分布式对象必须将默认对象的每个属性值初始化为undefined，以防止数据倒灌-faqs-local-database-management-26.md
+- 关键词：setSessionId加入组网和on启动监听前后设置的区别
+  - 读取：sources/data-management/faq/0022-setSessionId加入组网和on启动监听前后设置的区别-faqs-local-database-management-27.md
+- 关键词：@ohos.data.preferences在App退出重启后，持久化数据丢失
+  - 读取：sources/data-management/faq/0023-@ohos.data.preferences在App退出重启后，持久化数据丢失-faqs-local-database-management-28.md
+- 关键词：非UI页面使用用户首选项时context如何获取
+  - 读取：sources/data-management/faq/0024-非UI页面使用用户首选项时context如何获取-faqs-local-database-management-29.md
+- 关键词：如何实现同步方式调用数据库接口
+  - 读取：sources/data-management/faq/0025-如何实现同步方式调用数据库接口-faqs-local-database-management-30.md
+- 关键词：首选项错误码：code:"401" err: Error: Parameter error. The type of 'value' must be ValueType. 如何排查问题
+  - 读取：sources/data-management/faq/0026-首选项错误码：code-401-err-Error-Parameter-error.-The-type-of-'value'-must-be-ValueType.-如何排查问题-faqs-local-database-management-31.md
+- 关键词：如何查看或导出持久化数据
+  - 读取：sources/data-management/faq/0027-如何查看或导出持久化数据-faqs-local-database-management-32.md
+- 关键词：如何获知数据存储沙箱路径
+  - 读取：sources/data-management/faq/0028-如何获知数据存储沙箱路径-faqs-local-database-management-33.md
+- 关键词：插入数据之后，RDB数据库的WAL文件体积异常
+  - 读取：sources/data-management/faq/0029-插入数据之后，RDB数据库的WAL文件体积异常-faqs-local-database-management-34.md
+- 关键词：用户首选项是线程安全的吗
+  - 读取：sources/data-management/faq/0030-用户首选项是线程安全的吗-faqs-local-database-management-35.md
+- 关键词：为什么在关系型数据库中调用deleteRdbStore函数后并未真实删除数据库，对数据库的操作依旧可用
+  - 读取：sources/data-management/faq/0031-为什么在关系型数据库中调用deleteRdbStore函数后并未真实删除数据库，对数据库的操作依旧可用-faqs-local-database-management-36.md
+- 关键词：HarmonyOS应用数据存储仍采用沙箱机制，各个APP有自己数据可见范围，为什么不将各APP产生的数据统一存储（同一个目录或者DB下）
+  - 读取：sources/data-management/faq/0032-HarmonyOS应用数据存储仍采用沙箱机制，各个APP有自己数据可见范围，为什么不将各APP产生的数据统一存储（同一个目录或者DB下）-faqs-local-database-management-37.md
+- 关键词：数据存储方案如何选择
+  - 读取：sources/data-management/faq/0033-数据存储方案如何选择-faqs-local-database-management-38.md
+- 关键词：跨模块、跨进程时如何保证正常读取首选项中数据
+  - 读取：sources/data-management/faq/0034-跨模块、跨进程时如何保证正常读取首选项中数据-faqs-local-database-management-39.md
+- 关键词：数据管理如何保证数据安全
+  - 读取：sources/data-management/faq/0035-数据管理如何保证数据安全-faqs-local-database-management-40.md
+- 关键词：relationalStore是线程安全的吗
+  - 读取：sources/data-management/faq/0036-relationalStore是线程安全的吗-faqs-local-database-management-42.md
+- 关键词：App更新版本后，之前的首选项数据是否保留
+  - 读取：sources/data-management/faq/0037-App更新版本后，之前的首选项数据是否保留-faqs-local-database-management-43.md
+- 关键词：ArkData StoreConfig.customDir配置不生效
+  - 读取：sources/data-management/faq/0038-ArkData-StoreConfig.customDir配置不生效-faqs-local-database-management-44.md
+- 关键词：如何将数据库数据内置到App
+  - 读取：sources/data-management/faq/0039-如何将数据库数据内置到App-faqs-local-database-management-45.md
+- 关键词：@ohos.data.distributedKVStore接口中的deleteKVStore，第一个参数appId需要传递什么值
+  - 读取：sources/data-management/faq/0040-@ohos.data.distributedKVStore接口中的deleteKVStore，第一个参数appId需要传递什么值-faqs-local-database-management-46.md
+- 关键词：关于对relationalStore.RdbStore的使用问题：如何查询数据库，需要开一个子线程吗
+  - 读取：sources/data-management/faq/0041-关于对relationalStore.RdbStore的使用问题：如何查询数据库，需要开一个子线程吗-faqs-local-database-management-47.md
+- 关键词：ValuesBucket是否有可动态添加字段的方式
+  - 读取：sources/data-management/faq/0042-ValuesBucket是否有可动态添加字段的方式-faqs-local-database-management-48.md

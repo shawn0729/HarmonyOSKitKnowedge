@@ -1,0 +1,70 @@
+# ArkTS 编程语言 FAQ（类型、对象、集合与 JSON） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：将rawfile中json格式的字符串转换成对应的object对象后，调用实例方法后程序崩溃
+  - 读取：sources/arkts-language/faq/0003-将rawfile中json格式的字符串转换成对应的object对象后，调用实例方法后程序崩溃-faqs-arkts-1.md
+- 关键词：如何使用正则表达式
+  - 读取：sources/arkts-language/faq/0004-如何使用正则表达式-faqs-arkts-3.md
+- 关键词：如何生成随机的uuid
+  - 读取：sources/arkts-language/faq/0005-如何生成随机的uuid-faqs-arkts-14.md
+- 关键词：如何生成UUID的字符串
+  - 读取：sources/arkts-language/faq/0011-如何生成UUID的字符串-faqs-arkts-20.md
+- 关键词：如何合并两个对象
+  - 读取：sources/arkts-language/faq/0024-如何合并两个对象-faqs-arkts-61.md
+- 关键词：ArkTS里有哪些转换数据类型的方法
+  - 读取：sources/arkts-language/faq/0027-ArkTS里有哪些转换数据类型的方法-faqs-arkts-65.md
+- 关键词：如何解析JSON字符串为实例对象
+  - 读取：sources/arkts-language/faq/0033-如何解析JSON字符串为实例对象-faqs-arkts-75.md
+- 关键词：ArkTS是否支持解构
+  - 读取：sources/arkts-language/faq/0036-ArkTS是否支持解构-faqs-arkts-80.md
+- 关键词：如何通过Index获取ArrayList中的元素
+  - 读取：sources/arkts-language/faq/0039-如何通过Index获取ArrayList中的元素-faqs-arkts-85.md
+- 关键词：如何将Map转换为JSON字符串
+  - 读取：sources/arkts-language/faq/0040-如何将Map转换为JSON字符串-faqs-arkts-86.md
+- 关键词：如何获取对象的类名
+  - 读取：sources/arkts-language/faq/0041-如何获取对象的类名-faqs-arkts-87.md
+- 关键词：如何将JSON对象转换成HashMap
+  - 读取：sources/arkts-language/faq/0042-如何将JSON对象转换成HashMap-faqs-arkts-89.md
+- 关键词：如何将ArrayBuffer转成string
+  - 读取：sources/arkts-language/faq/0043-如何将ArrayBuffer转成string-faqs-arkts-90.md
+- 关键词：Uint8Array类型和String以及hex如何互相转换
+  - 读取：sources/arkts-language/faq/0044-Uint8Array类型和String以及hex如何互相转换-faqs-arkts-91.md
+- 关键词：如何进行base64编码
+  - 读取：sources/arkts-language/faq/0045-如何进行base64编码-faqs-arkts-92.md
+- 关键词：赋值和深拷贝与浅拷贝的区别
+  - 读取：sources/arkts-language/faq/0046-赋值和深拷贝与浅拷贝的区别-faqs-arkts-93.md
+- 关键词：ArkTS是否支持交叉类型
+  - 读取：sources/arkts-language/faq/0048-ArkTS是否支持交叉类型-faqs-arkts-96.md
+- 关键词：如何使用Record
+  - 读取：sources/arkts-language/faq/0050-如何使用Record-faqs-arkts-98.md
+- 关键词：如何处理大整数
+  - 读取：sources/arkts-language/faq/0054-如何处理大整数-faqs-arkts-104.md
+- 关键词：如何通过判断函数入参类型实现不同代码逻辑
+  - 读取：sources/arkts-language/faq/0055-如何通过判断函数入参类型实现不同代码逻辑-faqs-arkts-105.md
+- 关键词：如何使用工具库对JSON进行解析与生成
+  - 读取：sources/arkts-language/faq/0056-如何使用工具库对JSON进行解析与生成-faqs-arkts-106.md
+- 关键词：如何通过key获取对象值
+  - 读取：sources/arkts-language/faq/0058-如何通过key获取对象值-faqs-arkts-108.md
+- 关键词：如何遍历JSON对象
+  - 读取：sources/arkts-language/faq/0061-如何遍历JSON对象-faqs-arkts-111.md
+- 关键词：如何判断对象的类型
+  - 读取：sources/arkts-language/faq/0062-如何判断对象的类型-faqs-arkts-112.md
+- 关键词：如何获取对象的所有方法
+  - 读取：sources/arkts-language/faq/0065-如何获取对象的所有方法-faqs-arkts-115.md
+- 关键词：如何指定对象某些属性参与序列化
+  - 读取：sources/arkts-language/faq/0071-如何指定对象某些属性参与序列化-faqs-arkts-128.md
+- 关键词：对象反序列化时number类型丢失精度如何解决
+  - 读取：sources/arkts-language/faq/0072-对象反序列化时number类型丢失精度如何解决-faqs-arkts-129.md
+- 关键词：Array的长度上限是多少
+  - 读取：sources/arkts-language/faq/0073-Array的长度上限是多少-faqs-arkts-131.md
+- 关键词：对象中函数的this如何指向外层
+  - 读取：sources/arkts-language/faq/0081-对象中函数的this如何指向外层-faqs-arkts-139.md
+- 关键词：如何定义一个具有任意键的对象
+  - 读取：sources/arkts-language/faq/0083-如何定义一个具有任意键的对象-faqs-arkts-141.md
+- 关键词：ArkTS类型转换方法，除了使用as是否有其他方法
+  - 读取：sources/arkts-language/faq/0085-ArkTS类型转换方法，除了使用as是否有其他方法-faqs-arkts-144.md
+- 关键词：如何在Index.ets中导出默认导出的对象
+  - 读取：sources/arkts-language/faq/0086-如何在Index.ets中导出默认导出的对象-faqs-arkts-145.md
+- 关键词：应用通过对象字面量初始化class实例导致编译失败的原因和修改方案
+  - 读取：sources/arkts-language/faq/0089-应用通过对象字面量初始化class实例导致编译失败的原因和修改方案-faqs-arkts-148.md

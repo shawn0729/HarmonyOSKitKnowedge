@@ -1,0 +1,421 @@
+# 最佳实践与FAQ
+
+## 何时读取本主题
+
+- 当问题偏向场景经验、适配建议、常见错误或 FAQ 排障时读取本主题。
+
+## 最佳实践
+
+### 最佳实践入口
+
+- 3 最佳实践-程序包结构：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-package-structure
+  - 关键词：程序包结构
+- 3.1 桌面快捷方式：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-desktop-shortcuts
+  - 关键词：桌面快捷方式
+- 3.2 跨模块资源访问：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-cross-module-resource-access
+  - 关键词：跨模块资源访问
+- 3.3 Native侧跨HAR/HSP模块接口调用：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-cross-module-reference
+  - 关键词：Native侧跨HAR / HSP模块接口调用
+- 3.4 应用图标配置与开发：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-app-icon-configuration
+  - 关键词：应用图标配置与开发
+- 4 最佳实践-程序框架：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-program-framework
+  - 关键词：程序框架
+- 4.1 应用间跳转实践概览：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-link-between-apps-overview
+  - 关键词：应用间跳转实践概览
+- 4.2 社交分享跳转：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-social-share
+  - 关键词：社交分享跳转
+- 4.3 广告跳转：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-ads-jump
+  - 关键词：广告跳转
+- 4.4 特殊文本识别跳转：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-special-text-recognition
+  - 关键词：特殊文本识别跳转
+- 4.5 Web和应用的跳转与拉起：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-web-app-jump-and-pull-up
+  - 关键词：Web和应用的跳转与拉起
+
+## 常见问题
+
+### FAQ入口
+
+- 5 FAQ-程序包结构：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure
+  - 关键词：程序包结构
+- 6 FAQ-程序框架：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability
+  - 关键词：程序框架
+
+## 场景排障
+
+### FAQ入口
+
+- 5.1 HSP打包后，为什么会生成HAR包，它是否会导致App包大小膨胀：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-2
+  - 关键词：HSP打包后 / 为什么会生成HAR包 / 它是否会导致App包大小膨胀
+- 5.2 从包管理的角度，保证代码安全的措施有哪些：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-4
+  - 关键词：从包管理的角度 / 保证代码安全的措施有哪些
+- 5.3 如何理解App、HAP、HAR、HSP的关系：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-5
+  - 关键词：如何理解App / HAP / HAR
+- 5.4 HSP/HAR包中如何引用外部编译的so库文件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-6
+  - 关键词：HSP / HAR包中如何引用外部编译的so库文件
+- 5.5 SharedLibrary能否在配置文件中声明abilities、extensionAbilities标签：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-7
+  - 关键词：SharedLibrary能否在配置文件中声明abilities / extensionAbilities标签
+- 5.6 HAR包中使用window作为Toast时无法引入页面组件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-8
+  - 关键词：HAR包中使用window作为Toast时无法引入页面组件
+- 5.7 业务模块HAR如何获取宿主HAP的数据：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-9
+  - 关键词：业务模块HAR如何获取宿主HAP的数据
+- 5.8 如何安装打包出来的App包（通过什么命令安装）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-13
+  - 关键词：如何安装打包出来的App包（通过什么命令安装）
+- 5.9 如何判断应用可被卸载：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-14
+  - 关键词：如何判断应用可被卸载
+- 5.10 HAR、HSP不能支持Ability、Page声明，限制的理由是什么？后续是否会支持：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-15
+  - 关键词：HAR / HSP不能支持Ability / Page声明
+- 5.11 是否允许HAR的循环依赖：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-16
+  - 关键词：是否允许HAR的循环依赖
+- 5.12 HAP依赖HAR A，HAR A依赖HAR B。HAP能否调用HAR B提供的接口？如果不支持间接依赖HAR，设计的原因是什么：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-17
+  - 关键词：HAP依赖HAR A / HAR A依赖HAR B / HAP能否调用HAR B提供的接口？如果不支持间接依赖HAR
+- 5.13 通过resourceManager.getStringResource接口获取HSP资源文件报“Resource id invalid”错误：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-18
+- 5.14 HAP/HAR/HSP的关系是什么？是否都可以声明注册Ability和Page？三种类型分别推荐哪些的使用场景？选择原则是什么：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-19
+  - 关键词：HAP / HAR
+- 5.15 如何正确引用HAR/HSP包模块：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-21
+  - 关键词：如何正确引用HAR / HSP包模块
+- 5.16 从HAP的拆包中，如何区分是HAR和HSP：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-23
+  - 关键词：从HAP的拆包中 / 如何区分是HAR和HSP
+- 5.17 在HAP中调用createModuleContext方法获取的Context是什么层级：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-25
+- 5.18 如何获取当前HAP的BundleName：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-26
+  - 关键词：如何获取当前HAP的BundleName
+- 5.19 如何实现在不使用UIAbility的情况下，能够模块化管理代码，并且各个模块之间可以相互路由跳转：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-27
+  - 关键词：如何实现在不使用UIAbility的情况下 / 能够模块化管理代码
+- 5.20 Entry模块的HAP和Feature模块的HAP在使用和功能上的区别是什么：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-28
+  - 关键词：Entry模块的HAP和Feature模块的HAP在使用和功能上的区别是什么
+- 5.21 在HSP export类时，ts文件是按.d.ts导出还是.d.ets导出：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-29
+  - 关键词：在HSP export类时 / ts文件是按.d.ts导出还是.d.ets导出
+- 5.22 如何避免模块下文件打包进HAR包后，存在的不可预期的资料、配置或信息安全风险：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-31
+  - 关键词：如何避免模块下文件打包进HAR包后 / 存在的不可预期的资料 / 配置或信息安全风险
+- 5.23 HAR包多账号如何上传：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-32
+  - 关键词：HAR包多账号如何上传
+- 5.24 HSP包编译之后的.har文件的作用是什么：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-33
+  - 关键词：HSP包编译之后的.har文件的作用是什么
+- 5.25 如何使HSP包版本号统一：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-34
+  - 关键词：如何使HSP包版本号统一
+- 5.26 如何将多工程的HAP打包成一个App：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-35
+  - 关键词：如何将多工程的HAP打包成一个App
+- 5.27 对于HAP包中引用的HSP包是否有数量限制：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-36
+  - 关键词：对于HAP包中引用的HSP包是否有数量限制
+- 5.28 HAR如何转换为HSP：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-37
+  - 关键词：HAR如何转换为HSP
+- 5.29 HAR包是否支持依赖传递：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-38
+  - 关键词：HAR包是否支持依赖传递
+- 5.30 如何实现跨模块的页面跳转功能：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-39
+- 5.31 如何卸载debug包：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-40
+  - 关键词：如何卸载debug包
+- 5.32 应用安装、卸载时是否有数据上报：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-41
+  - 关键词：应用安装 / 卸载时是否有数据上报
+- 5.33 如何解决依赖的版本冲突问题：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-43
+- 5.34 为什么同一App下的HSP文件vendor参数不同时会安装失败：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-44
+  - 关键词：为什么同一App下的HSP文件vendor参数不同时会安装失败
+- 5.35 如何让两个HSP不相互依赖，使用对方的组件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-45
+  - 关键词：如何让两个HSP不相互依赖 / 对方的组件
+- 5.36 应用安装到设备的方式有哪些：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-47
+- 5.37 HAR和HSP的使用场景介绍：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-48
+  - 关键词：HAR和HSP的使用场景介绍
+- 5.38 一个HSP模块如何快速切换成HAR模块：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-49
+  - 关键词：一个HSP模块如何快速切换成HAR模块
+- 5.39 是否推荐使用BM QuickFix制造修复包：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-50
+  - 关键词：是否推荐使用BM QuickFix制造修复包
+- 5.40 使用hdc命令安装release HAP包到设备时上报“INSTALL_FAILED_APP_SOURCE_NOT_TRUSTED”错误：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-51
+- 5.41 如何查询应用包的名称、供应商、版本号、版本文本、安装时间、更新时间等信息：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-52
+  - 关键词：如何查询应用包的名称 / 供应商 / 版本号
+- 5.42 如何安装打包出来的App包（通过什么命令安装）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-54
+  - 关键词：如何安装打包出来的App包（通过什么命令安装）
+- 5.43 应用免安装的限制、字段解释以及如何自测：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-56
+  - 关键词：应用免安装的限制 / 字段解释以及如何自测
+- 5.44 安装HAP包报“failed to install bundle. install debug type not same”错误：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-57
+- 5.45 除应用市场外，是否存在其它途径下载安装应用包：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-58
+  - 关键词：除应用市场外
+- 5.46 如何判断当前应用程序是Debug包还是Release包：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-61
+  - 关键词：如何判断当前应用程序是Debug包还是Release包
+- 5.47 如何判断应用程序是否安装：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-62
+  - 关键词：如何判断应用程序是否安装
+- 5.48 如何跨HSP包调用rawfile目录下的文件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-63
+  - 关键词：如何跨HSP包调用rawfile目录下的文件
+- 5.49 如何获取应用包的签名指纹信息，即.p12文件信息：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-64
+  - 关键词：即.p12文件信息
+- 5.50 使用发布证书进行调试时出现安装错误: Install Failed: error: failed to install bundle.：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-65
+  - 关键词：Install Failed / error / failed to install bundle.
+- 5.51 使用HSP的多包场景下，直接崩溃并产生cppcrash异常日志，错误信息为resolveBufferCallback get buffer failed：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-66
+  - 关键词：HSP的多包场景下 / 直接崩溃并产生cppcrash异常日志
+- 5.52 HAP包中的“--BEGIN CERTIFICATE--”是什么格式的数据：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-67
+  - 关键词：HAP包中的“ / BEGIN CERTIFICATE / ”是什么格式的数据
+- 5.53 sign包和unsign包产物之间是否有差异：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-68
+  - 关键词：sign包和unsign包产物之间是否有差异
+- 5.54 如何在应用内共享HSP：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-69
+  - 关键词：如何在应用内共享HSP
+- 5.55 如何通过代码获取Hap包的打包时间：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-70
+  - 关键词：如何通过代码获取Hap包的打包时间
+- 5.56 应用静态快捷方式如何接入X键：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-package-structure-71
+  - 关键词：应用静态快捷方式如何接入X键
+- 6.1 程序框架（Ability）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-kit
+  - 关键词：程序框架（Ability）
+- 6.1.1 如何获取设备屏幕方向的状态变化通知：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-1
+- 6.1.2 如何使用AbilityStage的生命周期函数：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-2
+  - 关键词：如何使用AbilityStage的生命周期函数
+- 6.1.3 如何在UIAbility调用terminateSelf()后设置不保留最近任务列表中的快照：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-4
+  - 关键词：如何在UIAbility调用terminateSelf
+- 6.1.4 如何主动退出当前应用：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-5
+  - 关键词：如何主动退出当前应用
+- 6.1.5 部署HAP时上报“Failure[INSTALL_FAILED_SIZE_TOO_LARGE] error while deploying hap”错误：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-13
+  - 关键词：部署HAP时上报“Failure / INSTALL_FAILED_SIZE_TOO_LARGE / error while deploying hap”错误
+- 6.1.6 如何获取当前应用程序缓存目录：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-14
+- 6.1.7 如何获取应用级别的temp路径和files路径：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-15
+  - 关键词：如何获取应用级别的temp路径和files路径
+- 6.1.8 服务卡片EntryFormAbility生命周期回调函数在哪个ArkTS文件中调用：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-16
+- 6.1.9 多Module应用通过startAbility()启动时报错：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-20
+  - 关键词：多Module应用通过startAbility / 时报错
+- 6.1.10 UIAbility在onBackground执行耗时操作时是否会影响另外一个UIAbility的onForeground：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-26
+- 6.1.11 应用的进程启动过程是怎样的：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-28
+- 6.1.12 是否允许三方应用在手机设备上Fork进程：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-29
+  - 关键词：是否允许三方应用在手机设备上Fork进程
+- 6.1.13 两个UIAbility之间可通过哪些方法实现数据传递：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-31
+  - 关键词：两个UIAbility之间可通过哪些方法实现数据传递
+- 6.1.14 Extension类进程崩溃是否会导致主进程崩溃：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-32
+  - 关键词：Extension类进程崩溃是否会导致主进程崩溃
+- 6.1.15 多个UIAbility是运行在一个进程还是多个进程中？三方应用是否支持应用运行在多个进程下？主进程结束了，会影响子进程的运行吗：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-34
+  - 关键词：会影响子进程的运行吗
+- 6.1.16 ExtensionAbility如何与主进程通信：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-35
+  - 关键词：ExtensionAbility如何与主进程通信
+- 6.1.17 如何在页面中订阅UIAbility实例的生命周期变化：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-36
+  - 关键词：如何在页面中订阅UIAbility实例的生命周期变化
+- 6.1.18 onUnhandledException与onException回调分别什么时候触发：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-37
+- 6.1.19 TaskPool里面是否可以使用EventHub：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-38
+  - 关键词：TaskPool里面是否可以使用EventHub
+- 6.1.20 hdc shell命令是否支持schema uri模拟跳转：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-39
+  - 关键词：hdc shell命令是否支持schema uri模拟跳转
+- 6.1.21 是否可以通过ApplicationContext启动UIAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-40
+  - 关键词：是否可以通过ApplicationContext启动UIAbility
+- 6.1.22 Stage模型与FA模型在进程内对象共享方面有哪些差异：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-50
+  - 关键词：Stage模型与FA模型在进程内对象共享方面有哪些差异
+- 6.1.23 如何实现通过调用其他已安装的应用来打开特定文件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-54
+- 6.1.24 如何拉起浏览器应用：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-58
+  - 关键词：如何拉起浏览器应用
+- 6.1.25 从一个UIAbility跳转到另外一个Ability时，是否支持自定义转场动画的设置？如何实现：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-62
+  - 关键词：从一个UIAbility跳转到另外一个Ability时 / 是否支持自定义转场动画的设置？如何实现
+- 6.1.26 UIAbility和UIExtensionAbility有什么区别？分别推荐在什么场景使用：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-65
+- 6.1.27 UIAbility/Page/Component之间的关系？如何搭配使用：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-66
+  - 关键词：UIAbility / Page / Component之间的关系？如何搭配使用
+- 6.1.28 关于emitter、eventHub的使用场景：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-68
+  - 关键词：关于emitter / eventHub的使用场景
+- 6.1.29 如何禁用窗口的全屏显示功能：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-69
+- 6.1.30 如何获取App版本号，版本名，屏幕分辨率等信息：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-71
+  - 关键词：如何获取App版本号 / 版本名 / 屏幕分辨率等信息
+- 6.1.31 如何获取指定bundleFlags的Ability信息：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-72
+  - 关键词：如何获取指定bundleFlags的Ability信息
+- 6.1.32 如何在UIAbility、页面和组件中获取UIAbilityContext：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-73
+  - 关键词：如何在UIAbility / 页面和组件中获取UIAbilityContext
+- 6.1.33 如何在工具类中获取Context：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-74
+  - 关键词：如何在工具类中获取Context
+- 6.1.34 ApplicationContext、UIAbilityContext、Context的区别是什么：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-75
+  - 关键词：ApplicationContext / UIAbilityContext / Context的区别是什么
+- 6.1.35 在使用UIAbilityContext时报401“The context must be a valid Context”的Context类型错误：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-76
+- 6.1.36 应用、元服务和卡片是什么关系：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-77
+  - 关键词：应用 / 元服务和卡片是什么关系
+- 6.1.37 系统应用、三方应用、预置应用有什么差别：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-78
+  - 关键词：系统应用 / 三方应用 / 预置应用有什么差别
+- 6.1.38 如何设置默认语言和应用名称为中文：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-80
+- 6.1.39 如何查询应用进程的pid信息：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-81
+  - 关键词：如何查询应用进程的pid信息
+- 6.1.40 有了代码签名特性后，开发者的so文件在调试、发布等阶段该如何部署：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-82
+  - 关键词：有了代码签名特性后 / 开发者的so文件在调试 / 发布等阶段该如何部署
+- 6.1.41 app.json5文件与工程级build-profile.json5文件的区别：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-88
+  - 关键词：app.json5文件与工程级build / profile.json5文件的区别
+- 6.1.42 应用流转对账号有什么要求：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-89
+  - 关键词：应用流转对账号有什么要求
+- 6.1.43 如何在App启动时让各种权限弹窗的申请自动弹出：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-92
+  - 关键词：如何在App启动时让各种权限弹窗的申请自动弹出
+- 6.1.44 如果有多个UIAbility，如何判断应用进入后台：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-94
+  - 关键词：如果有多个UIAbility / 如何判断应用进入后台
+- 6.1.45 开发非UI功能，使用ts开发而非ets开发对应用有哪些影响（内存、CPU、hap大小等方面）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-98
+  - 关键词：开发非UI功能 / ts开发而非ets开发对应用有哪些影响（内存 / CPU
+- 6.1.46 如何判断App的启动来源：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-99
+  - 关键词：如何判断App的启动来源
+- 6.1.47 如何获取当前应用对应的UIAbility名称：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-100
+  - 关键词：如何获取当前应用对应的UIAbility名称
+- 6.1.48 如何判断应用当前在前台/后台：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-101
+  - 关键词：如何判断应用当前在前台 / 后台
+- 6.1.49 如何设置应用自动重启：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-103
+  - 关键词：如何设置应用自动重启
+- 6.1.50 如何获取设备上安装的应用列表数据：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-104
+- 6.1.51 UIAbility在内存不足的情况下是否会被回收，若被回收是否支持页面栈恢复：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-110
+  - 关键词：UIAbility在内存不足的情况下是否会被回收
+- 6.1.52 如何通过resourceManager获取rawFile路径下的文件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-111
+  - 关键词：如何通过resourceManager获取rawFile路径下的文件
+- 6.1.53 HarmonyOS是否限制App进程fork子进程，是否允许app里自带的可执行文件运行（fork+exec）执行，并通过ptrace方式读取自身进程？这种方式以后是否会限制并禁止：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-112
+  - 关键词：HarmonyOS是否限制App进程fork子进程 / 是否允许app里自带的可执行文件运行（fork+exec）执行 / 并通过ptrace方式读取自身进程？这种方式以后是否会限制并禁止
+- 6.1.54 HarmonyOS提供了两种页面加载方式，两者有何区别，怎么选择：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-113
+  - 关键词：HarmonyOS提供了两种页面加载方式 / 两者有何区别 / 怎么选择
+- 6.1.55 如何跳转到系统文件管理App界面：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-116
+  - 关键词：如何跳转到系统文件管理App界面
+- 6.1.56 HarmonyOS Next系统属于大端还是小端：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-117
+  - 关键词：HarmonyOS Next系统属于大端还是小端
+- 6.1.57 UIContext与Ability的关系，列举常见UIContext、Ability、UIAbilityContext的关系：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ability-118
+  - 关键词：UIContext与Ability的关系 / 列举常见UIContext / Ability
+- 6.2 后台任务开发（Background Tasks）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-kit
+  - 关键词：后台任务开发（Background Tasks）
+- 6.2.1 如何在Stage模型中创建后台任务：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-1
+  - 关键词：如何在Stage模型中创建后台任务
+- 6.2.2 应用在后台如何继续执行业务：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-2
+- 6.2.3 如何申请多个长时任务：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-4
+  - 关键词：如何申请多个长时任务
+- 6.2.4 应用运行时进程资源使用规格：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-6
+- 6.2.5 如何确认延迟任务WorkSchedulerExtensionAbility回调方法onWorkStart、onWorkStop实现是否正确、是否可以成功回调：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-8
+  - 关键词：onWorkStop实现是否正确 / 是否可以成功回调
+- 6.2.6 如何查询后台任务中短时任务/长时任务/延迟任务/后台代理提醒相关的系统日志：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-background-tasks-9
+  - 关键词：长时任务 / 延迟任务
+- 6.3 进程间通信（IPC）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ipc-kit
+  - 关键词：进程间通信（IPC）
+- 6.3.1 IPC跨进程通信中是否支持异步返回数据：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-ipc-1
+  - 关键词：IPC跨进程通信中是否支持异步返回数据
+- 6.4 卡片开发（Form）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-form-kit
+  - 关键词：卡片开发（Form）
+- 6.4.1 点击服务卡片如何跳转至指定的页面：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-form-1
+- 6.4.2 元服务与服务卡片的区别：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-form-6
+  - 关键词：元服务与服务卡片的区别
+
+## 路由提示
+
+- 问 程序包结构、桌面快捷方式、跨模块资源访问、Native侧跨HAR、HSP模块接口调用 时，转到 `best-practices-and-faq.md`
+- 如果 FAQ 指向具体实现链路，回到对应开发指南主题继续收窄。
+- 如果排障需要接口或错误码，再读取 `api-and-error-codes.md`。

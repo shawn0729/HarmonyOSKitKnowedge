@@ -1,0 +1,161 @@
+# 组件组合
+
+## 何时读取本主题
+
+- 当问题属于 组件组合 时读取本主题。
+
+## 主题入口
+
+### 开发指南入口
+
+- 1.3.2.1 应用/组件级配置：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-component-configuration-stage
+  - 关键词：应用 / 组件级配置
+- 1.3.2.2 UIAbility组件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability
+  - 关键词：UIAbility组件
+- 1.3.2.2.1 UIAbility组件概述：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-overview
+  - 关键词：UIAbility组件
+- 1.3.2.2.3 UIAbility组件启动模式：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-launch-type
+  - 关键词：UIAbility组件启动模式
+- 1.3.2.2.4 UIAbility组件基本用法：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage
+  - 关键词：UIAbility组件基本用法
+- 1.3.2.2.5 UIAbility组件与UI的数据同步：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-data-sync-with-ui
+  - 关键词：UIAbility组件与UI的数据同步
+- 1.3.2.2.6 启动应用内的UIAbility组件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-intra-device-interaction
+  - 关键词：应用内的UIAbility组件
+- 1.3.2.2.7 通过Call调用实现多端协同：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-cross-device-interaction
+  - 关键词：Call调用实现多端协同
+- 1.3.2.2.8 UIAbility备份恢复：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ability-recover-guideline
+  - 关键词：UIAbility备份恢复
+- 1.3.2.3 ExtensionAbility组件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/extensionability-overview
+  - 关键词：ExtensionAbility组件
+- 1.3.2.3.1 EmbeddedUIExtensionAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/embeddeduiextensionability
+  - 关键词：EmbeddedUIExtensionAbility
+- 1.3.2.3.2 使用AppServiceExtensionAbility组件实现后台服务：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-service-extension-ability
+  - 关键词：AppServiceExtensionAbility组件实现后台服务
+- 1.3.2.4 AbilityStage组件管理器：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/abilitystage
+  - 关键词：AbilityStage组件管理器
+- 1.3.2.5 应用上下文Context：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage
+  - 关键词：应用上下文Context
+- 1.3.2.6 信息传递载体Want：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/want
+  - 关键词：信息传递载体Want
+- 1.3.2.6.1 Want概述：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/want-overview
+  - 关键词：Want
+- 1.3.2.6.2 显式Want与隐式Want匹配规则：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/explicit-implicit-want-mappings
+  - 关键词：显式Want与隐式Want匹配规则
+- 1.3.2.6.3 使用显式Want启动应用组件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ability-startup-with-explicit-want
+  - 关键词：显式Want启动应用组件
+- 1.3.2.6.4 常见action与entities（不推荐使用）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/actions-entities
+  - 关键词：常见action与entities（不推荐使用）
+- 1.3.2.8 应用启动框架AppStartup：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-startup
+  - 关键词：应用启动框架AppStartup
+- 1.3.2.9 应用预加载：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/preload-application
+  - 关键词：应用预加载
+- 1.3.2.10 获取应用异常退出原因：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ability-exit-info-record
+  - 关键词：获取应用异常退出原因
+- 1.3.2.11 获取/设置环境变量：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/subscribe-system-environment-variable-changes
+  - 关键词：获取 / 设置环境变量
+- 1.4.2.1 应用/组件级配置：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-component-configuration-fa
+  - 关键词：应用 / 组件级配置
+- 1.4.2.2 PageAbility组件开发指导：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pageability
+  - 关键词：PageAbility组件
+- 1.4.2.2.1 PageAbility组件概述：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pageability-overview
+  - 关键词：PageAbility组件
+- 1.4.2.2.2 PageAbility组件配置：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pageability-configuration
+  - 关键词：PageAbility组件配置
+- 1.4.2.2.4 PageAbility的启动模式：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pageability-launch-type
+  - 关键词：PageAbility的启动模式
+- 1.4.2.2.5 创建PageAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/create-pageability
+  - 关键词：创建PageAbility
+- 1.4.2.2.6 启动本地PageAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-local-pageability
+  - 关键词：本地PageAbility
+- 1.4.2.2.7 停止PageAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/stop-pageability
+  - 关键词：停止PageAbility
+- 1.4.2.2.8 启动指定页面：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-page
+  - 关键词：指定页面
+- 1.4.2.2.9 窗口属性：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/window-properties
+  - 关键词：窗口属性
+- 1.4.2.2.10 申请授权：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/request-permissions
+  - 关键词：授权
+- 1.4.2.2.11 跳转规则：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/redirection-rules
+  - 关键词：跳转规则
+- 1.4.2.3 ServiceAbility组件开发指导：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/serviceability
+  - 关键词：ServiceAbility组件
+- 1.4.2.3.1 ServiceAbility组件概述：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/serviceability-overview
+  - 关键词：ServiceAbility组件
+- 1.4.2.3.2 ServiceAbility组件配置：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/serviceability-configuration
+  - 关键词：ServiceAbility组件配置
+- 1.4.2.3.4 创建ServiceAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/create-serviceability
+  - 关键词：创建ServiceAbility
+- 1.4.2.3.5 启动ServiceAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-serviceability
+  - 关键词：ServiceAbility
+- 1.4.2.3.6 连接ServiceAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/connect-serviceability
+  - 关键词：连接ServiceAbility
+- 1.4.2.4 DataAbility组件开发指导：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataability
+  - 关键词：DataAbility组件
+- 1.4.2.4.1 DataAbility组件概述：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataability-overview
+  - 关键词：DataAbility组件
+- 1.4.2.4.2 DataAbility组件配置：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataability-configuration
+  - 关键词：DataAbility组件配置
+- 1.4.2.4.4 创建DataAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/create-dataability
+  - 关键词：创建DataAbility
+- 1.4.2.4.5 启动DataAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-dataability
+  - 关键词：DataAbility
+- 1.4.2.4.6 访问DataAbility：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/access-dataability
+  - 关键词：访问DataAbility
+- 1.4.2.4.7 DataAbility权限控制：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataability-permission-control
+  - 关键词：DataAbility权限控制
+- 1.4.2.6 信息传递载体Want：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/want-fa
+  - 关键词：信息传递载体Want
+
+## 路由提示
+
+- 问 组件组合 相关问题时，转到 `component-composition.md`

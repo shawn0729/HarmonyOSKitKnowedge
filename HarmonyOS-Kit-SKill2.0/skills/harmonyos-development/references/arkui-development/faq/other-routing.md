@@ -1,0 +1,62 @@
+# ArkUI 开发 FAQ（其他问题） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何实现防截屏功能
+  - 读取：sources/arkui-development/faq/0003-如何实现防截屏功能-faqs-arkui-3.md
+- 关键词：如何选择图文混排的实现方案
+  - 读取：sources/arkui-development/faq/0017-如何选择图文混排的实现方案-faqs-arkui-23.md
+- 关键词：如何实现类似插槽的功能
+  - 读取：sources/arkui-development/faq/0023-如何实现类似插槽的功能-faqs-arkui-31.md
+- 关键词：AppStorage是否支持线程间共享对象，如果不支持，推荐替代方案是什么
+  - 读取：sources/arkui-development/faq/0034-AppStorage是否支持线程间共享对象，如果不支持，推荐替代方案是什么-faqs-arkui-49.md
+- 关键词：SideBarContainer如何设置controlButton属性
+  - 读取：sources/arkui-development/faq/0045-SideBarContainer如何设置controlButton属性-faqs-arkui-65.md
+- 关键词：如何监听屏幕旋转
+  - 读取：sources/arkui-development/faq/0046-如何监听屏幕旋转-faqs-arkui-66.md
+- 关键词：通过$r访问应用资源是否支持嵌套形式
+  - 读取：sources/arkui-development/faq/0065-通过$r访问应用资源是否支持嵌套形式-faqs-arkui-102.md
+- 关键词：ArkUI中icon资源锯齿感严重
+  - 读取：sources/arkui-development/faq/0074-ArkUI中icon资源锯齿感严重-faqs-arkui-114.md
+- 关键词：Color支持哪些格式，使用color: 'rgba(0, 0, 255, .5)'格式不生效
+  - 读取：sources/arkui-development/faq/0081-Color支持哪些格式，使用color-'rgba(0,-0,-255,-.5)'格式不生效-faqs-arkui-123.md
+- 关键词：如何获取与设置屏幕亮度
+  - 读取：sources/arkui-development/faq/0087-如何获取与设置屏幕亮度-faqs-arkui-132.md
+- 关键词：如何实现类似keyframes的效果
+  - 读取：sources/arkui-development/faq/0107-如何实现类似keyframes的效果-faqs-arkui-157.md
+- 关键词：如何获取router.back传递的参数
+  - 读取：sources/arkui-development/faq/0111-如何获取router.back传递的参数-faqs-arkui-164.md
+- 关键词：@Watch是否有粘性的概念
+  - 读取：sources/arkui-development/faq/0127-@Watch是否有粘性的概念-faqs-arkui-184.md
+- 关键词：使用@Watch监听并在回调函数中调用其他异步接口时UI响应慢
+  - 读取：sources/arkui-development/faq/0128-使用@Watch监听并在回调函数中调用其他异步接口时UI响应慢-faqs-arkui-185.md
+- 关键词：通用属性width是否支持设置变量
+  - 读取：sources/arkui-development/faq/0132-通用属性width是否支持设置变量-faqs-arkui-191.md
+- 关键词：如何判断JS对象中是否存在某个值
+  - 读取：sources/arkui-development/faq/0133-如何判断JS对象中是否存在某个值-faqs-arkui-192.md
+- 关键词：如何保持屏幕常亮
+  - 读取：sources/arkui-development/faq/0137-如何保持屏幕常亮-faqs-arkui-196.md
+- 关键词：如何获取屏幕的宽度、高度、分辨率和横竖屏等信息
+  - 读取：sources/arkui-development/faq/0139-如何获取屏幕的宽度、高度、分辨率和横竖屏等信息-faqs-arkui-198.md
+- 关键词：如何进行页面横竖屏切换
+  - 读取：sources/arkui-development/faq/0145-如何进行页面横竖屏切换-faqs-arkui-206.md
+- 关键词：是否有处理"9图"（又称"draw9patch"、".9图"、"点9图"等）的平替方案
+  - 读取：sources/arkui-development/faq/0146-是否有处理-9图-（又称-draw9patch-、-.9图-、-点9图-等）的平替方案-faqs-arkui-208.md
+- 关键词：如何使用iconfont
+  - 读取：sources/arkui-development/faq/0152-如何使用iconfont-faqs-arkui-216.md
+- 关键词：@Style 和 @Extend 是否支持export导出
+  - 读取：sources/arkui-development/faq/0157-@Style-和-@Extend-是否支持export导出-faqs-arkui-222.md
+- 关键词：Component如何监听应用前后台切换
+  - 读取：sources/arkui-development/faq/0162-Component如何监听应用前后台切换-faqs-arkui-230.md
+- 关键词：如何实现页面加载的loading效果
+  - 读取：sources/arkui-development/faq/0165-如何实现页面加载的loading效果-faqs-arkui-233.md
+- 关键词：如何正确获取刘海区域的高度，topRect中的取值是height、top还是height+top
+  - 读取：sources/arkui-development/faq/0167-如何正确获取刘海区域的高度，topRect中的取值是height、top还是height+top-faqs-arkui-236.md
+- 关键词：应用开启禁止截屏之后，系统将如何处理用户的截屏和录屏操作
+  - 读取：sources/arkui-development/faq/0168-应用开启禁止截屏之后，系统将如何处理用户的截屏和录屏操作-faqs-arkui-237.md
+- 关键词：如何获取手机屏幕信息
+  - 读取：sources/arkui-development/faq/0173-如何获取手机屏幕信息-faqs-arkui-242.md
+- 关键词：为什么vp2px、px2vp返回的结果不正确
+  - 读取：sources/arkui-development/faq/0183-为什么vp2px、px2vp返回的结果不正确-faqs-arkui-259.md
+- 关键词：是否navigation有最大页面数量限制？router栈的栈最大是32个，超过32个是无响应还是报错
+  - 读取：sources/arkui-development/faq/0184-是否navigation有最大页面数量限制？router栈的栈最大是32个，超过32个是无响应还是报错-faqs-arkui-260.md

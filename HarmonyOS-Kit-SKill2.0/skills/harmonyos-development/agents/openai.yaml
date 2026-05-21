@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS Development"
+  short_description: "Route HarmonyOS docs by capability and titles."
+  default_prompt: "Use this skill for HarmonyOS development questions covered by local best-practice and FAQ Markdown docs. Route by capability domain and document title, then read the matched source Markdown before answering."

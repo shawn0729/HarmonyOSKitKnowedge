@@ -1,0 +1,72 @@
+# ArkUI 开发 最佳实践 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：开发应用沉浸式效果-组件布局-UI开发 (ArkTS声明式开发范式)
+  - 读取：sources/arkui-development/best-practices/0001-开发应用沉浸式效果-组件布局-UI开发-(ArkTS声明式开发范式)-arkts-develop-apply-immersive-effects.md
+- 关键词：组件动态创建
+  - 读取：sources/arkui-development/best-practices/0001-组件动态创建-bpta-ui-dynamic-operations.md
+- 关键词：组件封装
+  - 读取：sources/arkui-development/best-practices/0002-组件封装-bpta-ui-component-encapsulation.md
+- 关键词：组件复用
+  - 读取：sources/arkui-development/best-practices/0003-组件复用-bpta-component-reuse.md
+- 关键词：组件复用问题诊断分析
+  - 读取：sources/arkui-development/best-practices/0004-组件复用问题诊断分析-bpta-component-reuse-issue-diagnosis-and-analysis.md
+- 关键词：文本展开折叠
+  - 读取：sources/arkui-development/best-practices/0001-文本展开折叠-bpta-text-expand-collapse.md
+- 关键词：布局优化指导
+  - 读取：sources/arkui-development/best-practices/0002-布局优化指导-bpta-improve-layout-performance.md
+- 关键词：常见列表流
+  - 读取：sources/arkui-development/best-practices/0003-常见列表流-bpta-common-list-flows.md
+- 关键词：Grid网格元素拖拽交换
+  - 读取：sources/arkui-development/best-practices/0004-Grid网格元素拖拽交换-bpta-grid-drag-swap.md
+- 关键词：使用Swiper组件实现轮播图
+  - 读取：sources/arkui-development/best-practices/0005-使用Swiper组件实现轮播图-bpta-carousel-graphic-works.md
+- 关键词：图片预览器
+  - 读取：sources/arkui-development/best-practices/0006-图片预览器-bpta-picture-preview.md
+- 关键词：自定义弹窗选型与开发
+  - 读取：sources/arkui-development/best-practices/0007-自定义弹窗选型与开发-bpta-customdialog-selection-and-development.md
+- 关键词：评论回复弹窗
+  - 读取：sources/arkui-development/best-practices/0008-评论回复弹窗-bpta-comment-reply-pop-up-window.md
+- 关键词：基于DialogHub的通用弹窗
+  - 读取：sources/arkui-development/best-practices/0009-基于DialogHub的通用弹窗-bpta-hadss_dialoghub.md
+- 关键词：基于ScrollComponents实现瀑布流
+  - 读取：sources/arkui-development/best-practices/0010-基于ScrollComponents实现瀑布流-bpta-waterflow-based-on-scrollcomponents.md
+- 关键词：常见瀑布流操作
+  - 读取：sources/arkui-development/best-practices/0011-常见瀑布流操作-bpta-waterflow-operations.md
+- 关键词：基于ScrollComponents实现网格
+  - 读取：sources/arkui-development/best-practices/0012-基于ScrollComponents实现网格-bpta-grid-based-on-scrollcomponents.md
+- 关键词：基于ScrollComponents实现长列表
+  - 读取：sources/arkui-development/best-practices/0013-基于ScrollComponents实现长列表-bpta-list-based-on-scrollcomponents.md
+- 关键词：Tabs选项卡常见开发场景
+  - 读取：sources/arkui-development/best-practices/0014-Tabs选项卡常见开发场景-bpta-development-scenarios-for-tabs.md
+- 关键词：常见列表操作
+  - 读取：sources/arkui-development/best-practices/0015-常见列表操作-bpta-common-list-operations.md
+- 关键词：弹窗组件封装
+  - 读取：sources/arkui-development/best-practices/0016-弹窗组件封装-bpta-dialog-encapsulation.md
+- 关键词：富文本显示的选型与开发
+  - 读取：sources/arkui-development/best-practices/0017-富文本显示的选型与开发-bpta-rich-text-display.md
+- 关键词：实现富文本编辑器
+  - 读取：sources/arkui-development/best-practices/0018-实现富文本编辑器-bpta-rich-text-editor.md
+- 关键词：常见导航样式案例
+  - 读取：sources/arkui-development/best-practices/0001-常见导航样式案例-bpta-multi-tab-practice.md
+- 关键词：基于HMRouter的页面跳转
+  - 读取：sources/arkui-development/best-practices/0002-基于HMRouter的页面跳转-bpta-hmrouter.md
+- 关键词：手势事件冲突解决方案
+  - 读取：sources/arkui-development/best-practices/0003-手势事件冲突解决方案-bpta-gestures-practice.md
+- 关键词：动画使用指导
+  - 读取：sources/arkui-development/best-practices/0001-动画使用指导-bpta-fair-use-animation.md
+- 关键词：页面间转场
+  - 读取：sources/arkui-development/best-practices/0002-页面间转场-bpta-page-transition.md
+- 关键词：一镜到底动效
+  - 读取：sources/arkui-development/best-practices/0003-一镜到底动效-bpta-one-shot-to-the-end.md
+- 关键词：深色模式适配
+  - 读取：sources/arkui-development/best-practices/0001-深色模式适配-bpta-dark-mode-adaptation.md
+- 关键词：页面亮度设置
+  - 读取：sources/arkui-development/best-practices/0002-页面亮度设置-bpta-page-brightness-settings.md
+- 关键词：自定义字体设置
+  - 读取：sources/arkui-development/best-practices/0003-自定义字体设置-bpta-custom-font-settings.md
+- 关键词：基于colorFilter实现图片滤镜效果
+  - 读取：sources/arkui-development/best-practices/0004-基于colorFilter实现图片滤镜效果-bpta-implementing-image-filters.md
+- 关键词：基于resizable实现图片拉伸效果
+  - 读取：sources/arkui-development/best-practices/0005-基于resizable实现图片拉伸效果-bpta-implementing-image-resizable.md

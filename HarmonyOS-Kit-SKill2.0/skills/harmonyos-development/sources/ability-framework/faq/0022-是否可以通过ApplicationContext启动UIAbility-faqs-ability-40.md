@@ -1,0 +1,3 @@
+# 是否可以通过ApplicationContext启动UIAbility
+
+不支持直接启动UIAbility，但可以通过UIAbilityContext的startAbility方法启动。

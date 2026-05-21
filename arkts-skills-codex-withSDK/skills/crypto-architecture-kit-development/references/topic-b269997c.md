@@ -1,0 +1,125 @@
+# 加解密开发指导
+
+## 何时读取本主题
+
+- 当问题属于 加解密开发指导 时读取本主题。
+
+## 主题入口
+
+### 开发指南入口
+
+- 1.3.3.1 使用AES对称密钥（GCM模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm
+  - 关键词：AES对称密钥（GCM模式）加解密 / ArkTS
+- 1.3.3.2 使用AES对称密钥（GCM模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm-ndk
+  - 关键词：AES对称密钥（GCM模式）加解密 / C++
+- 1.3.3.3 使用AES对称密钥（CCM模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-ccm
+  - 关键词：AES对称密钥（CCM模式）加解密 / ArkTS
+- 1.3.3.4 使用AES对称密钥（CCM模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-ccm-ndk
+  - 关键词：AES对称密钥（CCM模式）加解密 / C++
+- 1.3.3.5 使用AES对称密钥（CBC模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-cbc
+  - 关键词：AES对称密钥（CBC模式）加解密 / ArkTS
+- 1.3.3.6 使用AES对称密钥（CBC模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-cbc-ndk
+  - 关键词：AES对称密钥（CBC模式）加解密 / C++
+- 1.3.3.7 使用AES对称密钥（ECB模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-ecb
+  - 关键词：AES对称密钥（ECB模式）加解密 / ArkTS
+- 1.3.3.8 使用AES对称密钥（ECB模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-ecb-ndk
+  - 关键词：AES对称密钥（ECB模式）加解密 / C++
+- 1.3.3.9 使用AES对称密钥（GCM模式）分段加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm-by-segment
+  - 关键词：AES对称密钥（GCM模式）分段加解密 / ArkTS
+- 1.3.3.10 使用AES对称密钥（GCM模式）分段加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm-by-segment-ndk
+  - 关键词：AES对称密钥（GCM模式）分段加解密 / C++
+- 1.3.3.11 使用DES对称密钥（ECB模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-des-sym-encrypt-decrypt-ecb
+  - 关键词：DES对称密钥（ECB模式）加解密 / ArkTS
+- 1.3.3.12 使用DES对称密钥（ECB模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-des-sym-encrypt-decrypt-ecb-ndk
+  - 关键词：DES对称密钥（ECB模式）加解密 / C++
+- 1.3.3.13 使用3DES对称密钥加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-3des-sym-encrypt-decrypt-ecb
+  - 关键词：3DES对称密钥加解密 / ArkTS
+- 1.3.3.14 使用3DES对称密钥加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-3des-sym-encrypt-decrypt-ecb-ndk
+  - 关键词：3DES对称密钥加解密 / C++
+- 1.3.3.15 使用SM4对称密钥（ECB模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-ecb
+  - 关键词：SM4对称密钥（ECB模式）加解密 / ArkTS
+- 1.3.3.16 使用SM4对称密钥（ECB模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-ecb-ndk
+  - 关键词：SM4对称密钥（ECB模式）加解密 / C++
+- 1.3.3.17 使用SM4对称密钥（CBC模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-cbc
+  - 关键词：SM4对称密钥（CBC模式）加解密 / ArkTS
+- 1.3.3.18 使用SM4对称密钥（CBC模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-cbc-ndk
+  - 关键词：SM4对称密钥（CBC模式）加解密 / C++
+- 1.3.3.19 使用SM4对称密钥（GCM模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-gcm
+  - 关键词：SM4对称密钥（GCM模式）加解密 / ArkTS
+- 1.3.3.20 使用SM4对称密钥（GCM模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-gcm-ndk
+  - 关键词：SM4对称密钥（GCM模式）加解密 / C++
+- 1.3.3.21 使用SM4对称密钥（GCM模式）分段加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-gcm-by-segment
+  - 关键词：SM4对称密钥（GCM模式）分段加解密 / ArkTS
+- 1.3.3.22 使用SM4对称密钥（GCM模式）分段加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm4-sym-encrypt-decrypt-gcm-by-segment-ndk
+  - 关键词：SM4对称密钥（GCM模式）分段加解密 / C++
+- 1.3.3.23 使用ChaCha20对称密钥加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-chacha20-encrypt-decrypt
+  - 关键词：ChaCha20对称密钥加解密 / ArkTS
+- 1.3.3.24 使用ChaCha20对称密钥加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-chacha20-encrypt-decrypt-ndk
+  - 关键词：ChaCha20对称密钥加解密 / C++
+- 1.3.3.25 使用ChaCha20对称密钥（Poly1305模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-chacha20-encrypt-decrypt-poly1305
+  - 关键词：ChaCha20对称密钥（Poly1305模式）加解密 / ArkTS
+- 1.3.3.26 使用ChaCha20对称密钥（Poly1305模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-chacha20-encrypt-decrypt-poly1305-ndk
+  - 关键词：ChaCha20对称密钥（Poly1305模式）加解密 / C++
+- 1.3.3.27 使用RSA非对称密钥（PKCS1模式）加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-asym-encrypt-decrypt-pkcs1
+  - 关键词：RSA非对称密钥（PKCS1模式）加解密 / ArkTS
+- 1.3.3.28 使用RSA非对称密钥（PKCS1模式）加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-asym-encrypt-decrypt-pkcs1-ndk
+  - 关键词：RSA非对称密钥（PKCS1模式）加解密 / C++
+- 1.3.3.29 使用RSA非对称密钥分段加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-asym-encrypt-decrypt-by-segment
+  - 关键词：RSA非对称密钥分段加解密 / ArkTS
+- 1.3.3.30 使用RSA非对称密钥分段加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-asym-encrypt-decrypt-by-segment-ndk
+  - 关键词：RSA非对称密钥分段加解密 / C++
+- 1.3.3.31 使用RSA非对称密钥（PKCS1_OAEP模式）加解密：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-asym-encrypt-decrypt-pkcs1_oaep
+  - 关键词：RSA非对称密钥（PKCS1_OAEP模式）加解密
+- 1.3.3.32 使用SM2非对称密钥加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm2-asym-encrypt-decrypt
+  - 关键词：SM2非对称密钥加解密 / ArkTS
+- 1.3.3.33 使用SM2非对称密钥加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm2-asym-encrypt-decrypt-ndk
+  - 关键词：SM2非对称密钥加解密 / C++
+- 1.3.3.34 使用AES-WRAP算法对对称密钥加解密(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-wrap-encrypt-decrypt
+  - 关键词：AES / WRAP算法对对称密钥加解密 / ArkTS
+- 1.3.3.35 使用AES-WRAP算法对对称密钥加解密(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-wrap-encrypt-decrypt-ndk
+  - 关键词：AES / WRAP算法对对称密钥加解密 / C++
+- 1.3.3.36 使用SM2密文格式转换(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm2-ciphertext-conversion
+  - 关键词：SM2密文格式转换 / ArkTS
+- 1.3.3.37 使用SM2密文格式转换(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-sm2-ciphertext-conversion-ndk
+  - 关键词：SM2密文格式转换 / C++
+
+## 路由提示
+
+- 问 加解密开发指导 相关问题时，转到 `topic-b269997c.md`

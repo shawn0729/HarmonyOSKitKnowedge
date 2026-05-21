@@ -1,0 +1,60 @@
+# ArkUI 开发 FAQ（列表、滚动与网格） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何在可滚动的容器组件中实现曝光埋点
+  - 读取：sources/arkui-development/faq/0006-如何在可滚动的容器组件中实现曝光埋点-faqs-arkui-7.md
+- 关键词：如何解决Web与List的嵌套滑动冲突
+  - 读取：sources/arkui-development/faq/0013-如何解决Web与List的嵌套滑动冲突-faqs-arkui-18.md
+- 关键词：如何实现分组列表的吸顶/吸底效果
+  - 读取：sources/arkui-development/faq/0018-如何实现分组列表的吸顶-吸底效果-faqs-arkui-25.md
+- 关键词：如何解决List组件在不设置高度的情况下滑动不到底的问题
+  - 读取：sources/arkui-development/faq/0019-如何解决List组件在不设置高度的情况下滑动不到底的问题-faqs-arkui-26.md
+- 关键词：List组件如何实现多列效果
+  - 读取：sources/arkui-development/faq/0020-List组件如何实现多列效果-faqs-arkui-27.md
+- 关键词：如何设置分组列表的圆角和间距
+  - 读取：sources/arkui-development/faq/0021-如何设置分组列表的圆角和间距-faqs-arkui-28.md
+- 关键词：如何通过PanGesture手势或者SwipeGesture手势实现自定义组件的惯性滚动效果
+  - 读取：sources/arkui-development/faq/0025-如何通过PanGesture手势或者SwipeGesture手势实现自定义组件的惯性滚动效果-faqs-arkui-33.md
+- 关键词：如何处理父子组件间的事件传递，例如，如何解决滑动冲突
+  - 读取：sources/arkui-development/faq/0027-如何处理父子组件间的事件传递，例如，如何解决滑动冲突-faqs-arkui-40.md
+- 关键词：如何获取可滚动组件的当前滚动偏移量
+  - 读取：sources/arkui-development/faq/0056-如何获取可滚动组件的当前滚动偏移量-faqs-arkui-90.md
+- 关键词：如何在List组件中分组展示不同种类的数据
+  - 读取：sources/arkui-development/faq/0064-如何在List组件中分组展示不同种类的数据-faqs-arkui-101.md
+- 关键词：滑动的页面软键盘挡住内容不能向上滑动
+  - 读取：sources/arkui-development/faq/0067-滑动的页面软键盘挡住内容不能向上滑动-faqs-arkui-105.md
+- 关键词：List组件如何设置多列
+  - 读取：sources/arkui-development/faq/0070-List组件如何设置多列-faqs-arkui-109.md
+- 关键词：为何RichText组件中内容可以滚动
+  - 读取：sources/arkui-development/faq/0072-为何RichText组件中内容可以滚动-faqs-arkui-112.md
+- 关键词：如何设置List组件滑动到边缘无回弹效果
+  - 读取：sources/arkui-development/faq/0073-如何设置List组件滑动到边缘无回弹效果-faqs-arkui-113.md
+- 关键词：Grid组件的scrollBar是否支持自定义
+  - 读取：sources/arkui-development/faq/0091-Grid组件的scrollBar是否支持自定义-faqs-arkui-136.md
+- 关键词：List组件如何设置两端的渐变效果
+  - 读取：sources/arkui-development/faq/0092-List组件如何设置两端的渐变效果-faqs-arkui-137.md
+- 关键词：过长文字如何滚动显示
+  - 读取：sources/arkui-development/faq/0093-过长文字如何滚动显示-faqs-arkui-138.md
+- 关键词：如何实现拖拽时列表项占位动画的效果
+  - 读取：sources/arkui-development/faq/0096-如何实现拖拽时列表项占位动画的效果-faqs-arkui-143.md
+- 关键词：Scroll里面套一个grid，如何禁用grid的滑动事件
+  - 读取：sources/arkui-development/faq/0113-Scroll里面套一个grid，如何禁用grid的滑动事件-faqs-arkui-166.md
+- 关键词：键盘拉起时列表无法上下滑动
+  - 读取：sources/arkui-development/faq/0115-键盘拉起时列表无法上下滑动-faqs-arkui-168.md
+- 关键词：Grid如何实现拖拽功能
+  - 读取：sources/arkui-development/faq/0149-Grid如何实现拖拽功能-faqs-arkui-211.md
+- 关键词：如何让Grid组件在高度不确定的情况下，实现自适应高度
+  - 读取：sources/arkui-development/faq/0172-如何让Grid组件在高度不确定的情况下，实现自适应高度-faqs-arkui-241.md
+- 关键词：ListItemGroup和LazyForEach如何结合使用
+  - 读取：sources/arkui-development/faq/0178-ListItemGroup和LazyForEach如何结合使用-faqs-arkui-247.md
+- 关键词：如何实现列表既可以左右滑、又可以上下滑动
+  - 读取：sources/arkui-development/faq/0181-如何实现列表既可以左右滑、又可以上下滑动-faqs-arkui-250.md
+- 关键词：如何使用Swiper组件实现下拉刷新
+  - 读取：sources/arkui-development/faq/0182-如何使用Swiper组件实现下拉刷新-faqs-arkui-251.md
+- 关键词：List的下拉加载如何回滚到当前展示位置
+  - 读取：sources/arkui-development/faq/0191-List的下拉加载如何回滚到当前展示位置-faqs-arkui-268.md
+- 关键词：如何实现List内拖拽交换子组件位置
+  - 读取：sources/arkui-development/faq/0199-如何实现List内拖拽交换子组件位置-faqs-arkui-276.md
+- 关键词：如何将ListItem的swipeAction滑动效果恢复到初始状态
+  - 读取：sources/arkui-development/faq/0200-如何将ListItem的swipeAction滑动效果恢复到初始状态-faqs-arkui-277.md

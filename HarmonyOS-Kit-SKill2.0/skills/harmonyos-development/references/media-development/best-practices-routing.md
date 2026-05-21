@@ -1,0 +1,70 @@
+# 媒体开发（音频和视频） 最佳实践 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：基于AVPlayer基础播控实践
+  - 读取：sources/media-development/best-practices/0002-基于AVPlayer基础播控实践-bpta-avplayer-basic-control.md
+- 关键词：基于AVPlayer播放长视频实践
+  - 读取：sources/media-development/best-practices/0003-基于AVPlayer播放长视频实践-bpta-avplayer-long-video.md
+- 关键词：基于AVPlayer播放短视频实践
+  - 读取：sources/media-development/best-practices/0004-基于AVPlayer播放短视频实践-bpta-avplayer-short-video.md
+- 关键词：基于AVPlayer播放嵌入式短视频实践
+  - 读取：sources/media-development/best-practices/0005-基于AVPlayer播放嵌入式短视频实践-bpta-avplayer-embeded-short-video.md
+- 关键词：基于AVPlayer播放网络视频实践
+  - 读取：sources/media-development/best-practices/0006-基于AVPlayer播放网络视频实践-bpta-avplayer-embeded-network-video.md
+- 关键词：基于AudioRender播放PCM音频
+  - 读取：sources/media-development/best-practices/0009-基于AudioRender播放PCM音频-bpta-playing-pcm-audio-based-audiorenderer.md
+- 关键词：基于OHAudio播放PCM音频
+  - 读取：sources/media-development/best-practices/0010-基于OHAudio播放PCM音频-bpta-playing-pcm-audio-based-ohaudio.md
+- 关键词：基于AVPlayer播放格式化音频（ArkTS）
+  - 读取：sources/media-development/best-practices/0011-基于AVPlayer播放格式化音频（ArkTS）-bpta-playing-formatted-audio-based-avplayer-arkts.md
+- 关键词：基于AVPlayer播放格式化音频（C++）
+  - 读取：sources/media-development/best-practices/0012-基于AVPlayer播放格式化音频（C++）-bpta-playing-formatted-audio-based-avplayer-cpp.md
+- 关键词：基于SoundPool播放短音频
+  - 读取：sources/media-development/best-practices/0013-基于SoundPool播放短音频-bpta-playing-short-audio-based-soundpool.md
+- 关键词：基于AudioCapturer录制PCM音频（ArkTS）
+  - 读取：sources/media-development/best-practices/0016-基于AudioCapturer录制PCM音频（ArkTS）-bpta-audio-record-base-on-audiocapturer.md
+- 关键词：基于OHAudio录制PCM音频（C++）
+  - 读取：sources/media-development/best-practices/0017-基于OHAudio录制PCM音频（C++）-bpta-audio-record-base-on-ohaudio.md
+- 关键词：基于AVRecorder录制格式化音频（ArkTS）
+  - 读取：sources/media-development/best-practices/0018-基于AVRecorder录制格式化音频（ArkTS）-bpta-audio-record-base-on-avrecorder-arkts.md
+- 关键词：基于AVRecorder录制格式化音频（C++）
+  - 读取：sources/media-development/best-practices/0019-基于AVRecorder录制格式化音频（C++）-bpta-audio-record-base-on-avrecorder.md
+- 关键词：基于AVScreenCapture录制音频
+  - 读取：sources/media-development/best-practices/0020-基于AVScreenCapture录制音频-bpta-audio-record-base-on-avscreencapture.md
+- 关键词：基于Video组件播放长视频
+  - 读取：sources/media-development/best-practices/0022-基于Video组件播放长视频-bpta-video-component-long-video.md
+- 关键词：基于Video组件播放短视频
+  - 读取：sources/media-development/best-practices/0023-基于Video组件播放短视频-bpta-video-component-short-video.md
+- 关键词：渲染视频画面
+  - 读取：sources/media-development/best-practices/0024-渲染视频画面-bpta-video-render.md
+- 关键词：基于Surface模式进行视频编码
+  - 读取：sources/media-development/best-practices/0025-基于Surface模式进行视频编码-bpta-surface-encoder.md
+- 关键词：基于Buffer模式进行视频转码
+  - 读取：sources/media-development/best-practices/0026-基于Buffer模式进行视频转码-bpta-buffer-mode-transcoding.md
+- 关键词：音频焦点管理解决方案
+  - 读取：sources/media-development/best-practices/0027-音频焦点管理解决方案-bpta-audio-focus-management.md
+- 关键词：在线视频播放卡顿优化
+  - 读取：sources/media-development/best-practices/0028-在线视频播放卡顿优化-bpta-online-video-playback-lags-practice.md
+- 关键词：HDR Vivid视频播放与录制开发实践
+  - 读取：sources/media-development/best-practices/0029-HDR-Vivid视频播放与录制开发实践-bpta-hdrvivid.md
+- 关键词：HDR Vivid视频转码SDR视频开发实践
+  - 读取：sources/media-development/best-practices/0030-HDR-Vivid视频转码SDR视频开发实践-bpta-hdrtosdr.md
+- 关键词：基于系统能力获取视频缩略图
+  - 读取：sources/media-development/best-practices/0031-基于系统能力获取视频缩略图-bpta-video-thumbnail.md
+- 关键词：音画同步
+  - 读取：sources/media-development/best-practices/0032-音画同步-bpta-audio-video-synchronization.md
+- 关键词：基于AVScreenCapture实现屏幕录制
+  - 读取：sources/media-development/best-practices/0033-基于AVScreenCapture实现屏幕录制-bpta-avscreencapture-for-screen-recording.md
+- 关键词：音质切换开发实践
+  - 读取：sources/media-development/best-practices/0034-音质切换开发实践-bpta-sound-quality-switching.md
+- 关键词：图片合成视频开发实践
+  - 读取：sources/media-development/best-practices/0035-图片合成视频开发实践-bpta-image-to-video-synthesis.md
+- 关键词：基于AudioRenderer和AudioCapturer实现音频波形动画
+  - 读取：sources/media-development/best-practices/0036-基于AudioRenderer和AudioCapturer实现音频波形动画-bpta-audio-ripple-animation.md
+- 关键词：基于Audio能力实现音频耳返
+  - 读取：sources/media-development/best-practices/0037-基于Audio能力实现音频耳返-bpta-audio-in-ear-monitor.md
+- 关键词：管理音频输入设备开发实践
+  - 读取：sources/media-development/best-practices/0038-管理音频输入设备开发实践-bpta-managing-audio-input-devices.md
+- 关键词：管理音频输出设备开发实践
+  - 读取：sources/media-development/best-practices/0039-管理音频输出设备开发实践-bpta-managing-audio-output-devices.md

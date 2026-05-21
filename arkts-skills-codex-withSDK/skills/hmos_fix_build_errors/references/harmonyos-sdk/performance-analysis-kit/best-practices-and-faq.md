@@ -1,0 +1,287 @@
+# 最佳实践与FAQ
+
+## 何时读取本主题
+
+- 当问题偏向场景经验、适配建议、常见错误或 FAQ 排障时读取本主题。
+
+## 最佳实践
+
+### 最佳实践入口
+
+- 3.1.1 性能概览：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-guide-reading
+  - 关键词：性能概览
+- 3.1.2 性能体验设计：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-smooth-application-design
+  - 关键词：性能体验设计
+- 3.1.3 性能检测：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-detection
+  - 关键词：性能检测
+- 3.1.3.1 开发态性能检测：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-detection
+  - 关键词：开发态性能检测
+- 3.1.3.2 运行态性能检测：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-runtime-detection
+  - 关键词：运行态性能检测
+- 3.1.3.2.1 启动耗时类问题检测方法：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-startup-time-detection
+  - 关键词：耗时类问题检测方法
+- 3.1.3.2.2 主线程超时类问题检测方法：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-mainthread-consumption-detection
+  - 关键词：主线程超时类问题检测方法
+- 3.1.3.2.3 滑动丢帧类问题检测方法：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-sliding-frame-drop-detection
+  - 关键词：滑动丢帧类问题检测方法
+- 3.1.4 性能分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-optimization-tool-practice
+  - 关键词：性能分析
+- 3.1.4.1 性能分析简介：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-optimization-overview
+  - 关键词：性能分析
+- 3.1.4.2 点击响应时延分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-click-to-click-response-optimization
+  - 关键词：点击响应时延分析
+- 3.1.4.3 点击完成时延分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-click-to-complete-delay-analysis
+  - 关键词：点击完成时延分析
+- 3.1.4.4 帧率问题分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-zhenlv
+  - 关键词：帧率问题分析
+- 3.1.4.5 Web点击响应时延分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-web-click-response-delay-analysis
+  - 关键词：Web点击响应时延分析
+- 3.1.4.6 Web加载完成时延分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-web-completion-delay-analysis
+  - 关键词：Web加载完成时延分析
+- 3.1.4.7 跨线程序列化耗时问题分析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-threads-serialization-timeout-analysis
+  - 关键词：跨线程序列化耗时问题分析
+- 3.1.4.8 分析内存占用问题：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-analyze-memory-problem
+  - 关键词：分析内存占用问题
+- 3.1.4.8.1 内存基础知识：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-memory-basic-knowledge
+  - 关键词：内存基础知识
+- 3.1.4.8.2 获取进程内存信息：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-retrieve-process-memory-info
+  - 关键词：获取进程内存信息
+- 3.1.4.8.3 分析ArkTS/JS内存：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-arkts-js-memory-analysis
+  - 关键词：分析ArkTS / JS内存
+- 3.1.4.8.4 分析native内存：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-native-memory-analysis
+  - 关键词：分析native内存
+- 3.1.4.8.5 分析内核态内存：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-kernel-memory-analysis
+  - 关键词：分析内核态内存
+- 3.1.4.9 分析任务执行超时问题：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-permission-timeout-analysis
+  - 关键词：分析任务执行超时问题
+- 3.1.5 性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-optimization
+  - 关键词：性能优化
+- 3.1.5.1 感知流畅优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-perceived-smoothness
+  - 关键词：感知流畅优化
+- 3.1.5.2 渲染范围控制：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-control-rendering-range
+  - 关键词：渲染范围控制
+- 3.1.5.3 布局节点减少：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-reduce-layout-nodes
+  - 关键词：布局节点减少
+- 3.1.5.4 组件绘制优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-pptimized-component-drawing
+  - 关键词：组件绘制优化
+- 3.1.5.5 状态刷新控制：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-state-refresh
+  - 关键词：状态刷新控制
+- 3.1.5.6 动画帧率优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-animation-frame
+  - 关键词：动画帧率优化
+- 3.1.5.7 并发能力使用：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-concurrency-capability
+  - 关键词：并发能力使用
+- 3.1.5.8 资源提前加载：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-preloading-resources
+  - 关键词：资源提前加载
+- 3.1.5.9 运行效率提高：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-improve-running-efficiency
+  - 关键词：运行效率提高
+- 3.1.5.10 耗时操作减少：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-reduce-time-consuming
+  - 关键词：耗时操作减少
+- 3.1.5.11 操作延时触发：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-delayed-trigger-operation
+  - 关键词：操作延时触发
+- 3.1.6 性能场景优化案例：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-scenario-performance-optimization
+  - 关键词：性能场景优化案例
+- 3.1.6.1 界面渲染性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-developing-high-performance-ui
+  - 关键词：界面渲染性能优化
+- 3.1.6.1.1 组件嵌套优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-component-nesting-optimization
+  - 关键词：组件嵌套优化
+- 3.1.6.1.2 懒加载优化性能：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-lazyforeach-optimization
+  - 关键词：懒加载优化性能
+- 3.1.6.1.3 UI组件性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-ui-component-performance-optimization
+  - 关键词：UI组件性能优化
+- 3.1.6.1.4 主线程耗时操作优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-time-optimization-of-the-main-thread
+  - 关键词：主线程耗时操作优化
+- 3.1.6.1.5 高负载场景分帧渲染：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-dispose-highly-loaded-component-render
+  - 关键词：高负载场景分帧渲染
+- 3.1.6.1.6 长列表加载丢帧优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-best-practices-long-list
+  - 关键词：长列表加载丢帧优化
+- 3.1.6.1.7 瀑布流加载丢帧优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-waterflow-performance-optimization
+  - 关键词：瀑布流加载丢帧优化
+- 3.1.6.1.8 Grid组件加载丢帧优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-improve_grid_performance
+  - 关键词：Grid组件加载丢帧优化
+- 3.1.6.1.9 Swiper组件加载丢帧优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-swiper_high_performance_development_guide
+  - 关键词：Swiper组件加载丢帧优化
+- 3.1.6.2 应用启动与响应优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-startup-response-optimization
+  - 关键词：应用启动与响应优化
+- 3.1.6.2.1 应用冷启动时延优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-application-cold-start-optimization
+  - 关键词：应用冷启动时延优化
+- 3.1.6.2.2 应用时延优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-application-latency-optimization-cases
+  - 关键词：应用时延优化
+- 3.1.6.3 资源与存储优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-resource-and-storage-optimization
+  - 关键词：资源与存储优化
+- 3.1.6.3.1 应用包体积优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-decrease_pakage_size
+  - 关键词：应用包体积优化
+- 3.1.6.3.2 应用内存占用优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-memory-optimization
+  - 关键词：应用内存占用优化
+- 3.1.6.3.3 图片资源加载优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-texture-compression-improve-performance
+  - 关键词：图片资源加载优化
+- 3.1.6.3.4 文件上传下载优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-file-upload-and-download-performance
+  - 关键词：文件上传下载优化
+- 3.1.6.4 Web性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-web-performance-optimization
+  - 关键词：Web性能优化
+- 3.1.6.4.1 Web加载性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-web-develop-optimization
+  - 关键词：Web加载性能优化
+- 3.1.6.5 专项问题解决方案：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-solutions-to-special-issues
+  - 关键词：专项问题解决方案
+- 3.1.6.5.1 应用闪屏解决方案：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-screen-flicker-solution
+  - 关键词：应用闪屏解决方案
+- 3.1.6.5.2 Image白块解决方案：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-image-white-lump-solution
+  - 关键词：Image白块解决方案
+- 3.1.6.6 对象序列化性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-object-serialization-performance
+  - 关键词：对象序列化性能优化
+- 3.1.6.6.1 高性能JSON解析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-high-performance-json-parsing
+  - 关键词：高性能JSON解析
+- 3.1.6.6.2 高性能Protobuf解析：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-high-performance-protobuf-parsing
+  - 关键词：高性能Protobuf解析
+- 3.1.6.7 并行化性能优化：
+  - https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-concurrent-optimization
+  - 关键词：并行化性能优化
+
+## 常见问题
+
+### FAQ入口
+
+- 1.6.3 HiAppEvent常见问题：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-faq
+  - 关键词：HiAppEvent
+
+## 场景排障
+
+### FAQ入口
+
+- 1.6.4 使用FaultLogExtensionAbility订阅事件：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/fault-log-extension-app-events-arkts
+  - 关键词：FaultLogExtensionAbility订阅事件
+- 1.7 性能跟踪：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracemeter
+  - 关键词：性能跟踪
+- 1.7.1 HiTraceMeter介绍：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracemeter-intro
+  - 关键词：HiTraceMeter介绍
+- 1.7.2 使用HiTraceMeter跟踪性能（ArkTS）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracemeter-guidelines-arkts
+  - 关键词：HiTraceMeter跟踪性能（ArkTS）
+- 1.7.3 使用HiTraceMeter跟踪性能（C/C++）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracemeter-guidelines-ndk
+  - 关键词：HiTraceMeter跟踪性能（C / C++）
+- 1.7.4 查看HiTraceMeter日志：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracemeter-view
+  - 关键词：查看HiTraceMeter日志
+- 1.8 分布式调用链跟踪：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracechain
+  - 关键词：分布式调用链跟踪
+- 1.8.1 HiTraceChain介绍：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracechain-intro
+  - 关键词：HiTraceChain介绍
+- 1.8.2 使用HiTraceChain打点（ArkTS）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracechain-guidelines-arkts
+  - 关键词：HiTraceChain打点（ArkTS）
+- 1.8.3 使用HiTraceChain打点（C/C++）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hitracechain-guidelines-ndk
+  - 关键词：HiTraceChain打点（C / C++）
+- 1.9 检测模式：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hichecker
+  - 关键词：检测模式
+- 1.9.1 使用HiChecker检测问题（ArkTS）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hichecker-guidelines-arkts
+  - 关键词：HiChecker检测问题（ArkTS）
+- 1.10 系统调试信息获取：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug
+  - 关键词：系统调试信息获取
+- 1.10.1 HiDebug能力概述：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug-guidelines
+  - 关键词：HiDebug能力
+- 1.10.2 HiDebug接口使用示例(ArkTS)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug-guidelines-arkts
+  - 关键词：HiDebug接口使用示例 / ArkTS
+- 1.10.3 HiDebug接口使用示例(C/C++)：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug-guidelines-ndk
+  - 关键词：HiDebug接口使用示例 / C++
+- 1.11 业务线程超时检测：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hicollie
+  - 关键词：业务线程超时检测
+- 1.11.1 使用HiCollie检测业务线程卡死卡顿问题（C/C++）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hicollie-guidelines-ndk
+  - 关键词：HiCollie检测业务线程卡死卡顿问题（C / C++）
+- 1.11.2 使用HiCollie监控函数执行时间超长问题（C/C++）：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hicollie-settimer-guidelines-ndk
+  - 关键词：HiCollie监控函数执行时间超长问题（C / C++）
+- 1.12 错误管理及应用恢复：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/error-manager
+  - 关键词：错误管理及应用恢复
+- 1.12.1 错误管理开发指导：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/errormanager-guidelines
+  - 关键词：错误管理
+- 1.12.2 应用恢复开发指导：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/apprecovery-guidelines
+  - 关键词：应用恢复
+- 1.13 Performance Analysis Kit术语：
+  - https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/performance-analysis-kit-terminology
+  - 关键词：Performance Analysis Kit术语
+
+## 路由提示
+
+- 问 HiAppEvent、性能跟踪、HiTraceMeter介绍、HiTraceMeter跟踪性能（ArkTS）、HiTraceMeter跟踪性能（C 时，转到 `best-practices-and-faq.md`
+- 如果 FAQ 指向具体实现链路，回到对应开发指南主题继续收窄。
+- 如果排障需要接口或错误码，再读取 `api-and-error-codes.md`。

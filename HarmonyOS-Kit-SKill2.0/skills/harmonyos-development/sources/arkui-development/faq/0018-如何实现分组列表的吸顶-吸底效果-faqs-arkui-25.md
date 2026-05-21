@@ -1,0 +1,97 @@
+# 如何实现分组列表的吸顶/吸底效果
+
+---
+
+可通过[List](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-list)组件的sticky属性配合ListItemGroup组件来实现。通过给List组件设置sticky属性为StickyStyle.Header/StickyStyle.Footer。可参考如下代码：
+
+
+
+```typescript
+1. // xxx.ets
+2. @Entry
+3. @Component
+4. struct ListItemGroupExample {
+5.  private timeTable: TimeTable[] = [
+6.  {
+7.  title: 'Monday',
+8.  projects: ['language', 'mathematics', 'English']
+9.  },
+10.  {
+11.  title: 'Tuesday',
+12.  projects: ['physics', 'chemistry', 'biology']
+13.  },
+14.  {
+15.  title: 'Wednesday',
+16.  projects: ['history', 'geography', 'politics']
+17.  },
+18.  {
+19.  title: 'Thursday',
+20.  projects: ['the fine arts', 'music', 'sport']
+21.  }
+22.  ]
+23.
+24.  @Builder
+25.  itemHead(text: string) {
+26.  Text(text)
+27.  .fontSize(20)
+28.  .backgroundColor(0xAABBCC)
+29.  .width("100%")
+30.  .padding(10)
+31.  }
+32.
+33.  @Builder
+34.  itemFoot(num: number) {
+35.  Text('common' + num + "period")
+36.  .fontSize(16)
+37.  .backgroundColor(0xAABBCC)
+38.  .width("100%")
+39.  .padding(5)
+40.  }
+41.
+42.  build() {
+43.  Column() {
+44.  List({ space: 20 }) {
+45.  ForEach(this.timeTable, (item: TimeTable) => {
+46.  ListItemGroup({ header: this.itemHead(item.title), footer: this.itemFoot(item.projects.length) }) {
+47.  ForEach(item.projects, (project: string) => {
+48.  ListItem() {
+49.  Text(project)
+50.  .width("100%")
+51.  .height(100)
+52.  .fontSize(20)
+53.  .textAlign(TextAlign.Center)
+54.  .backgroundColor(0xFFFFFF)
+55.  }
+56.  }, (item: string) => item)
+57.  }
+58.  .divider({ strokeWidth: 1, color: Color.Blue }) // The boundary line between each row
+59.  })
+60.  }
+61.  .width('90%')
+62.  .sticky(StickyStyle.Header | StickyStyle.Footer)
+63.  .scrollBar(BarState.Off)
+64.  }
+65.  .width('100%')
+66.  .height('100%')
+67.  .backgroundColor(0xDCDCDC)
+68.  .padding({ top: 5 })
+69.  }
+70. }
+71.
+72. interface TimeTable {
+73.  title: string;
+74.  projects: string[];
+75. }
+
+```
+
+
+[TopBottomSuctionOfGroupingList.ets](https://gitcode.com/HarmonyOS_Samples/faqsnippets/blob/master/ArkUI/entry/src/main/ets/pages/TopBottomSuctionOfGroupingList.ets#L21-L95)
+
+
+
+效果如图所示：
+
+
+
+![](../../_assets/images/89e277ffcfc4f40c149b7470.webp)

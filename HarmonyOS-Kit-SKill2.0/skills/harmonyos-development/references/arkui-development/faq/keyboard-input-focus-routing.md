@@ -1,0 +1,44 @@
+# ArkUI 开发 FAQ（键盘、输入与焦点） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：TextInput组件获取焦点的几种场景
+  - 读取：sources/arkui-development/faq/0009-TextInput组件获取焦点的几种场景-faqs-arkui-13.md
+- 关键词：RichEditor组件如何设置光标的起始位置位于左上角
+  - 读取：sources/arkui-development/faq/0010-RichEditor组件如何设置光标的起始位置位于左上角-faqs-arkui-14.md
+- 关键词：如何实现软键盘弹出后，整体布局不变
+  - 读取：sources/arkui-development/faq/0011-如何实现软键盘弹出后，整体布局不变-faqs-arkui-16.md
+- 关键词：如何主动清除控件的焦点
+  - 读取：sources/arkui-development/faq/0015-如何主动清除控件的焦点-faqs-arkui-20.md
+- 关键词：如何在键盘弹出时仅调整指定UI组件的位置，而不影响整体布局
+  - 读取：sources/arkui-development/faq/0030-如何在键盘弹出时仅调整指定UI组件的位置，而不影响整体布局-faqs-arkui-43.md
+- 关键词：如何在键盘弹出时，让内容上移，而不是整个页面上移
+  - 读取：sources/arkui-development/faq/0036-如何在键盘弹出时，让内容上移，而不是整个页面上移-faqs-arkui-53.md
+- 关键词：输入框拉起键盘时，如何将底部布局弹起到键盘顶部
+  - 读取：sources/arkui-development/faq/0037-输入框拉起键盘时，如何将底部布局弹起到键盘顶部-faqs-arkui-54.md
+- 关键词：如何一键清空TextInput、TextArea组件内容
+  - 读取：sources/arkui-development/faq/0049-如何一键清空TextInput、TextArea组件内容-faqs-arkui-80.md
+- 关键词：TextInput组件密码模式下，右边的眼睛图标能否支持自定义
+  - 读取：sources/arkui-development/faq/0052-TextInput组件密码模式下，右边的眼睛图标能否支持自定义-faqs-arkui-86.md
+- 关键词：TextInput在聚焦时如何使光标回到起点
+  - 读取：sources/arkui-development/faq/0054-TextInput在聚焦时如何使光标回到起点-faqs-arkui-88.md
+- 关键词：如何主动拉起软键盘
+  - 读取：sources/arkui-development/faq/0063-如何主动拉起软键盘-faqs-arkui-100.md
+- 关键词：TextInput如何限制输入字符为某些字符
+  - 读取：sources/arkui-development/faq/0068-TextInput如何限制输入字符为某些字符-faqs-arkui-106.md
+- 关键词：如何实现多行输入
+  - 读取：sources/arkui-development/faq/0075-如何实现多行输入-faqs-arkui-116.md
+- 关键词：弹窗弹出时，输入框如何用代码设置全选
+  - 读取：sources/arkui-development/faq/0078-弹窗弹出时，输入框如何用代码设置全选-faqs-arkui-119.md
+- 关键词：TextInput组件包含英文和汉字时，如何设置全选
+  - 读取：sources/arkui-development/faq/0080-TextInput组件包含英文和汉字时，如何设置全选-faqs-arkui-122.md
+- 关键词：TextInput按压态背景色如何修改
+  - 读取：sources/arkui-development/faq/0082-TextInput按压态背景色如何修改-faqs-arkui-124.md
+- 关键词：TextInput是否能自定义hover效果
+  - 读取：sources/arkui-development/faq/0088-TextInput是否能自定义hover效果-faqs-arkui-133.md
+- 关键词：如何解决Web页面输入框拉起键盘后，页面头部被截断的问题
+  - 读取：sources/arkui-development/faq/0100-如何解决Web页面输入框拉起键盘后，页面头部被截断的问题-faqs-arkui-148.md
+- 关键词：如何动态控制键盘绑定在不同的TextInput上
+  - 读取：sources/arkui-development/faq/0151-如何动态控制键盘绑定在不同的TextInput上-faqs-arkui-215.md
+- 关键词：TextInput的visibility属性设置为Hidden或者None之后是否可获焦
+  - 读取：sources/arkui-development/faq/0192-TextInput的visibility属性设置为Hidden或者None之后是否可获焦-faqs-arkui-269.md

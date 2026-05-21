@@ -1,0 +1,58 @@
+# 网络开发 FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：http请求中response错误码返回6是什么意思
+  - 读取：sources/network-development/faq/0001-http请求中response错误码返回6是什么意思-faqs-network-3.md
+- 关键词：调用camera拍摄的照片如何上传到服务器
+  - 读取：sources/network-development/faq/0002-调用camera拍摄的照片如何上传到服务器-faqs-network-4.md
+- 关键词：http网络连接中的通用知识
+  - 读取：sources/network-development/faq/0003-http网络连接中的通用知识-faqs-network-6.md
+- 关键词：HTTP接口如何设置Cookie
+  - 读取：sources/network-development/faq/0004-HTTP接口如何设置Cookie-faqs-network-7.md
+- 关键词：Stage模型如何配置支持http明文传输
+  - 读取：sources/network-development/faq/0005-Stage模型如何配置支持http明文传输-faqs-network-16.md
+- 关键词：Image组件加载网络图片，PixelMap与直接访问url有什么区别
+  - 读取：sources/network-development/faq/0006-Image组件加载网络图片，PixelMap与直接访问url有什么区别-faqs-network-17-V5.md
+- 关键词：http请求中能否不设置Content-Type参数
+  - 读取：sources/network-development/faq/0007-http请求中能否不设置Content-Type参数-faqs-network-18.md
+- 关键词：http请求响应为空，报错请求已被取消或数量超过100
+  - 读取：sources/network-development/faq/0008-http请求响应为空，报错请求已被取消或数量超过100-faqs-network-22.md
+- 关键词：Socket接口库是否支持绑定域名
+  - 读取：sources/network-development/faq/0009-Socket接口库是否支持绑定域名-faqs-network-23.md
+- 关键词：http请求并发的最大数量限制是多少
+  - 读取：sources/network-development/faq/0010-http请求并发的最大数量限制是多少-faqs-network-28.md
+- 关键词：http是否支持连接复用
+  - 读取：sources/network-development/faq/0011-http是否支持连接复用-faqs-network-30.md
+- 关键词：应用能否指定使用某一网络来发请求
+  - 读取：sources/network-development/faq/0012-应用能否指定使用某一网络来发请求-faqs-network-32.md
+- 关键词：网络相关的三方库有哪些
+  - 读取：sources/network-development/faq/0013-网络相关的三方库有哪些-faqs-network-34.md
+- 关键词：三方库@ohos/axios中发起post请求，如何以queryParams形式传递参数
+  - 读取：sources/network-development/faq/0014-三方库@ohos-axios中发起post请求，如何以queryParams形式传递参数-faqs-network-35.md
+- 关键词：ArkTS中HTTP请求如何以JSON形式进行传输
+  - 读取：sources/network-development/faq/0015-ArkTS中HTTP请求如何以JSON形式进行传输-faqs-network-36.md
+- 关键词：手机网络正常，但是调用connection.hasDefaultNet()接口失败
+  - 读取：sources/network-development/faq/0016-手机网络正常，但是调用connection.hasDefaultNet()接口失败-faqs-network-37.md
+- 关键词：httpRequest.request请求https接口ssl证书验证失败
+  - 读取：sources/network-development/faq/0017-httpRequest.request请求https接口ssl证书验证失败-faqs-network-41.md
+- 关键词：如何判断使用的是移动蜂窝网络
+  - 读取：sources/network-development/faq/0018-如何判断使用的是移动蜂窝网络-faqs-network-45.md
+- 关键词：http请求如何以表单形式进行传输
+  - 读取：sources/network-development/faq/0019-http请求如何以表单形式进行传输-faqs-network-47.md
+- 关键词：request和requestInStream的使用边界问题
+  - 读取：sources/network-development/faq/0020-request和requestInStream的使用边界问题-faqs-network-52.md
+- 关键词：如何判断当前网络能否上网
+  - 读取：sources/network-development/faq/0021-如何判断当前网络能否上网-faqs-network-61.md
+- 关键词：如何监听判断VPN类型网络
+  - 读取：sources/network-development/faq/0022-如何监听判断VPN类型网络-faqs-network-67.md
+- 关键词：如何解决应用退至后台TCP连接会被中断
+  - 读取：sources/network-development/faq/0023-如何解决应用退至后台TCP连接会被中断-faqs-network-73.md
+- 关键词：网络波动情况下，底层系统是否会关闭Socket连接
+  - 读取：sources/network-development/faq/0024-网络波动情况下，底层系统是否会关闭Socket连接-faqs-network-33.md
+- 关键词：http请求执行的线程是否可控
+  - 读取：sources/network-development/faq/0025-http请求执行的线程是否可控-faqs-network-27.md
+- 关键词：Socket连接报错，错误码88
+  - 读取：sources/network-development/faq/0026-Socket连接报错，错误码88-faqs-network-14.md
+- 关键词：如何判断当前网络的IP地址版本是多少
+  - 读取：sources/network-development/faq/0027-如何判断当前网络的IP地址版本是多少-faqs-network-71.md

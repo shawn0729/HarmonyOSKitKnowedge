@@ -1,0 +1,64 @@
+# 应用市场服务 FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：AppGallery Connect中可以配置多个订阅关键事件回调地址吗？
+  - 读取：sources/appgallery-services/faq/0001-AppGallery-Connect中可以配置多个订阅关键事件回调地址吗？-store-faq-9.md
+- 关键词：AppGallery Connect获取的IAP公钥最大长度是多少？便于用户存储设置的最大长度是多少？
+  - 读取：sources/appgallery-services/faq/0002-AppGallery-Connect获取的IAP公钥最大长度是多少？便于用户存储设置的最大长度是多少？-store-faq-10.md
+- 关键词：AppGallery Connect商品管理页面，商品价格编辑界面的默认价格表示什么意思？
+  - 读取：sources/appgallery-services/faq/0003-AppGallery-Connect商品管理页面，商品价格编辑界面的默认价格表示什么意思？-store-faq-11.md
+- 关键词：在AppGallery Connect中单独修改商品在某个地区的价格，以后汇率变动，是否会影响应用内的商品价格？
+  - 读取：sources/appgallery-services/faq/0004-在AppGallery-Connect中单独修改商品在某个地区的价格，以后汇率变动，是否会影响应用内的商品价格？-store-faq-12.md
+- 关键词：AppGallery Connect商品管理页面中，价格展示是否做了数字调整？比如小数点第二位6/9等调整？
+  - 读取：sources/appgallery-services/faq/0005-AppGallery-Connect商品管理页面中，价格展示是否做了数字调整？比如小数点第二位6-9等调整？-store-faq-13.md
+- 关键词：是否必须使用SHA256的证书才能通过验签？
+  - 读取：sources/appgallery-services/faq/0006-是否必须使用SHA256的证书才能通过验签？-store-faq-14.md
+- 关键词：签名校验是否可以都在服务端执行？
+  - 读取：sources/appgallery-services/faq/0007-签名校验是否可以都在服务端执行？-store-faq-15.md
+- 关键词：支付界面是否仅有一种UI设计？是否存在其他支付界面方案？
+  - 读取：sources/appgallery-services/faq/0008-支付界面是否仅有一种UI设计？是否存在其他支付界面方案？-store-faq-16.md
+- 关键词：是否能在删除商品后添加具有相同productId的商品？
+  - 读取：sources/appgallery-services/faq/0009-是否能在删除商品后添加具有相同productId的商品？-store-faq-18.md
+- 关键词：数字商品服务器支持证书
+  - 读取：sources/appgallery-services/faq/0010-数字商品服务器支持证书-store-faq-19.md
+- 关键词：数字商品服务器支持加密套件
+  - 读取：sources/appgallery-services/faq/0011-数字商品服务器支持加密套件-store-faq-20.md
+- 关键词：数字商品服务中订单订购状态有哪些？
+  - 读取：sources/appgallery-services/faq/0012-数字商品服务中订单订购状态有哪些？-store-faq-22.md
+- 关键词：订阅商品的续费周期规则是什么？
+  - 读取：sources/appgallery-services/faq/0013-订阅商品的续费周期规则是什么？-store-faq-23.md
+- 关键词：订阅型商品中的续费周期1个月是指30天、31天还是自然月？同理，2个月、3个月具体包含多少天数？
+  - 读取：sources/appgallery-services/faq/0014-订阅型商品中的续费周期1个月是指30天、31天还是自然月？同理，2个月、3个月具体包含多少天数？-store-faq-24.md
+- 关键词：订阅时长按照自然月计算时，2月份是28天还是29天？
+  - 读取：sources/appgallery-services/faq/0015-订阅时长按照自然月计算时，2月份是28天还是29天？-store-faq-25.md
+- 关键词：应用市场推荐展示元服务卡片异常
+  - 读取：sources/appgallery-services/faq/0016-应用市场推荐展示元服务卡片异常-store-faq-1.md
+- 关键词：按需加载场景中加载动态模块失败
+  - 读取：sources/appgallery-services/faq/0017-按需加载场景中加载动态模块失败-store-faq-2.md
+- 关键词：按需加载模块是否支持单独上架应用市场或单独更新？
+  - 读取：sources/appgallery-services/faq/0018-按需加载模块是否支持单独上架应用市场或单独更新？-store-faq-28.md
+- 关键词：按需加载场景中，应用在加载指定模块后重启，还是已加载状态吗？是否需要重新发起按需加载请求？
+  - 读取：sources/appgallery-services/faq/0019-按需加载场景中，应用在加载指定模块后重启，还是已加载状态吗？是否需要重新发起按需加载请求？-store-faq-29.md
+- 关键词：按需加载场景中，用户在加载指定模块后是否可以卸载，然后重新发起请求？
+  - 读取：sources/appgallery-services/faq/0020-按需加载场景中，用户在加载指定模块后是否可以卸载，然后重新发起请求？-store-faq-30.md
+- 关键词：按需加载场景中，是否支持依赖模块同步加载?
+  - 读取：sources/appgallery-services/faq/0021-按需加载场景中，是否支持依赖模块同步加载-appgallery-faq-33.md
+- 关键词：按需加载场景中，是否支持同时存在多个任务？
+  - 读取：sources/appgallery-services/faq/0022-按需加载场景中，是否支持同时存在多个任务？-store-faq-34.md
+- 关键词：未上架应用市场的应用，如何快速接入调试产品特性按需分发功能？
+  - 读取：sources/appgallery-services/faq/0023-未上架应用市场的应用，如何快速接入调试产品特性按需分发功能？-store-faq-26.md
+- 关键词：生态查询服务场景中获取自身场景值为空
+  - 读取：sources/appgallery-services/faq/0024-生态查询服务场景中获取自身场景值为空-store-faq-3.md
+- 关键词：应用市场更新功能抛出不在前台异常
+  - 读取：sources/appgallery-services/faq/0025-应用市场更新功能抛出不在前台异常-store-faq-4.md
+- 关键词：向用户显示应用更新提示弹框文案能否自定义？
+  - 读取：sources/appgallery-services/faq/0026-向用户显示应用更新提示弹框文案能否自定义？-store-faq-27.md
+- 关键词：调用应用归因服务登记归因来源接口报错身份检查错误
+  - 读取：sources/appgallery-services/faq/0027-调用应用归因服务登记归因来源接口报错身份检查错误-store-faq-5.md
+- 关键词：如何过滤应用归因服务的日志？
+  - 读取：sources/appgallery-services/faq/0028-如何过滤应用归因服务的日志？-store-faq-6.md
+- 关键词：如何过滤应用内快捷方式加桌的日志？
+  - 读取：sources/appgallery-services/faq/0029-如何过滤应用内快捷方式加桌的日志？-store-faq-31.md
+- 关键词：应用内快捷方式加桌返回401错误码
+  - 读取：sources/appgallery-services/faq/0030-应用内快捷方式加桌返回401错误码-appgallery-faq-32.md

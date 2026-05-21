@@ -1,0 +1,42 @@
+# 图片处理 FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：内存在ArkTS侧和Native侧是否共享
+  - 读取：sources/image-processing/faq/0001-内存在ArkTS侧和Native侧是否共享-faqs-image-1.md
+- 关键词：如何设置图片的高斯模糊效果
+  - 读取：sources/image-processing/faq/0002-如何设置图片的高斯模糊效果-faqs-image-2.md
+- 关键词：图片压缩API的quality参数与图片原始大小、压缩后大小的关系
+  - 读取：sources/image-processing/faq/0003-图片压缩API的quality参数与图片原始大小、压缩后大小的关系-faqs-image-4.md
+- 关键词：图片编解码支持的格式有哪些
+  - 读取：sources/image-processing/faq/0004-图片编解码支持的格式有哪些-faqs-image-5-V5.md
+- 关键词：如何将相册选择的图片生成PixelMap
+  - 读取：sources/image-processing/faq/0005-如何将相册选择的图片生成PixelMap-faqs-image-6.md
+- 关键词：如何对相册图片进行编辑裁剪
+  - 读取：sources/image-processing/faq/0006-如何对相册图片进行编辑裁剪-faqs-image-7.md
+- 关键词：sourceSize设置图片分辨率
+  - 读取：sources/image-processing/faq/0007-sourceSize设置图片分辨率-faqs-image-8.md
+- 关键词：photoAccessHelper.PhotoSelectOptions读取相册图片
+  - 读取：sources/image-processing/faq/0008-photoAccessHelper.PhotoSelectOptions读取相册图片-faqs-image-10.md
+- 关键词：如何把ImageReceiver收到的视频帧数据保存到本地
+  - 读取：sources/image-processing/faq/0009-如何把ImageReceiver收到的视频帧数据保存到本地-faqs-image-11.md
+- 关键词：为什么获取到的yuv数据量比宽*高*1.5多
+  - 读取：sources/image-processing/faq/0010-为什么获取到的yuv数据量比宽-高-1.5多-faqs-image-12.md
+- 关键词：如何实现PixelMap和base64的相互转换
+  - 读取：sources/image-processing/faq/0011-如何实现PixelMap和base64的相互转换-faqs-image-15.md
+- 关键词：如何将图片压缩到指定大小以下
+  - 读取：sources/image-processing/faq/0012-如何将图片压缩到指定大小以下-faqs-image-16.md
+- 关键词：createPixelMap中pixelFormat不生效(NV21/NV12)
+  - 读取：sources/image-processing/faq/0013-createPixelMap中pixelFormat不生效(NV21-NV12)-faqs-image-17.md
+- 关键词：如何将C++侧接收的PixelMap转换成cv::mat格式
+  - 读取：sources/image-processing/faq/0014-如何将C++侧接收的PixelMap转换成cv-mat格式-faqs-image-18.md
+- 关键词：image.createPixelMap中pixelFormat不生效
+  - 读取：sources/image-processing/faq/0015-image.createPixelMap中pixelFormat不生效-faqs-image-19.md
+- 关键词：如何将PixelMap保存到相册
+  - 读取：sources/image-processing/faq/0016-如何将PixelMap保存到相册-faqs-image-20.md
+- 关键词：如何保存网络图片到相册
+  - 读取：sources/image-processing/faq/0017-如何保存网络图片到相册-faqs-image-21-0000002117273113-V14.md
+- 关键词：如何从图库选择图片并上传到服务器
+  - 读取：sources/image-processing/faq/0018-如何从图库选择图片并上传到服务器-faqs-image-22.md
+- 关键词：如何对GIF图片进行压缩
+  - 读取：sources/image-processing/faq/0019-如何对GIF图片进行压缩-faqs-image-24.md

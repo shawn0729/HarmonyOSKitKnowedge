@@ -1,0 +1,98 @@
+# 媒体开发（音频和视频） FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何后台播放音乐
+  - 读取：sources/media-development/faq/0002-如何后台播放音乐-faqs-audio-1.md
+- 关键词：创建多个视频组件无法播放
+  - 读取：sources/media-development/faq/0003-创建多个视频组件无法播放-faqs-audio-2.md
+- 关键词：OpenSL ES音频录制示例调用崩溃
+  - 读取：sources/media-development/faq/0004-OpenSL-ES音频录制示例调用崩溃-faqs-audio-3.md
+- 关键词：SoundPool播放的音频是否支持WMV格式
+  - 读取：sources/media-development/faq/0005-SoundPool播放的音频是否支持WMV格式-faqs-audio-4.md
+- 关键词：如何实现录音监听
+  - 读取：sources/media-development/faq/0006-如何实现录音监听-faqs-audio-5.md
+- 关键词：音频处理哪些场景内置3A算法及AEC、ANC、AGC是否支持独立开关
+  - 读取：sources/media-development/faq/0007-音频处理哪些场景内置3A算法及AEC、ANC、AGC是否支持独立开关-faqs-audio-6.md
+- 关键词：AudioRenderer是否有跳转到某一帧的接口
+  - 读取：sources/media-development/faq/0008-AudioRenderer是否有跳转到某一帧的接口-faqs-audio-7.md
+- 关键词：播放短促提示音（如点赞、收藏、新消息等场景的提示音或音效），应该如何处理
+  - 读取：sources/media-development/faq/0009-播放短促提示音（如点赞、收藏、新消息等场景的提示音或音效），应该如何处理-faqs-audio-8.md
+- 关键词：静音播放音频时，如何做到不抢音频焦点
+  - 读取：sources/media-development/faq/0010-静音播放音频时，如何做到不抢音频焦点-faqs-audio-9.md
+- 关键词：三方应用如何选择音频流类型
+  - 读取：sources/media-development/faq/0011-三方应用如何选择音频流类型-faqs-audio-10.md
+- 关键词：应用音频如何使用OpenSL切换为OHAudio
+  - 读取：sources/media-development/faq/0012-应用音频如何使用OpenSL切换为OHAudio-faqs-audio-11.md
+- 关键词：播放音频时，如何修改默认输出设备
+  - 读取：sources/media-development/faq/0013-播放音频时，如何修改默认输出设备-faqs-audio-12.md
+- 关键词：音频焦点如何适配
+  - 读取：sources/media-development/faq/0014-音频焦点如何适配-faqs-audio-13.md
+- 关键词：Webview焦点如何适配
+  - 读取：sources/media-development/faq/0015-Webview焦点如何适配-faqs-audio-14.md
+- 关键词：设备切换后没有暂停
+  - 读取：sources/media-development/faq/0016-设备切换后没有暂停-faqs-audio-15.md
+- 关键词：手机设置静音，重启时开机动画有声音
+  - 读取：sources/media-development/faq/0017-手机设置静音，重启时开机动画有声音-faqs-audio-16.md
+- 关键词：如何监听音频输出设备变更信息以作为应用处理自动暂停的依据
+  - 读取：sources/media-development/faq/0018-如何监听音频输出设备变更信息以作为应用处理自动暂停的依据-faqs-audio-17.md
+- 关键词：如何在录制采集音频时获取麦克风的音量大小
+  - 读取：sources/media-development/faq/0019-如何在录制采集音频时获取麦克风的音量大小-faqs-audio-18.md
+- 关键词：如何拦截系统音量调节的上下键
+  - 读取：sources/media-development/faq/0020-如何拦截系统音量调节的上下键-faqs-audio-19.md
+- 关键词：如何在AVRecorder录制WAV格式的音频文件时正确配置AVRecorderProfile参数
+  - 读取：sources/media-development/faq/0021-如何在AVRecorder录制WAV格式的音频文件时正确配置AVRecorderProfile参数-faqs-audio-20.md
+- 关键词：如何播放PCM格式的音频
+  - 读取：sources/media-development/faq/0022-如何播放PCM格式的音频-faqs-audio-21.md
+- 关键词：使用AudioRenderer播放音频时，如何跳转到指定播放位置
+  - 读取：sources/media-development/faq/0023-使用AudioRenderer播放音频时，如何跳转到指定播放位置-faqs-audio-22.md
+- 关键词：使用AVPlayer播放器概率性报错5400104、5400103要怎么处理
+  - 读取：sources/media-development/faq/0025-使用AVPlayer播放器概率性报错5400104、5400103要怎么处理-faqs-media-1.md
+- 关键词：系统播放器AVPlayer支持的流媒体协议与功能
+  - 读取：sources/media-development/faq/0026-系统播放器AVPlayer支持的流媒体协议与功能-faqs-media-2.md
+- 关键词：如何实现使用AVPlayer播放音频的过程中打断当前播放去播放另一个音频
+  - 读取：sources/media-development/faq/0027-如何实现使用AVPlayer播放音频的过程中打断当前播放去播放另一个音频-faqs-media-3.md
+- 关键词：使用AVPlayer播放视频时，如何实现应用从后台切回前台时继续播放原视频
+  - 读取：sources/media-development/faq/0028-使用AVPlayer播放视频时，如何实现应用从后台切回前台时继续播放原视频-faqs-media-4.md
+- 关键词：使用video组件播放视频时，如何刷新重新加载视频？比如网络异常导致播放失败等情况
+  - 读取：sources/media-development/faq/0029-使用video组件播放视频时，如何刷新重新加载视频？比如网络异常导致播放失败等情况-faqs-media-5.md
+- 关键词：在使用Video组件时，为Video添加本地视频播放源后，立刻播放，为什么会播放失败
+  - 读取：sources/media-development/faq/0030-在使用Video组件时，为Video添加本地视频播放源后，立刻播放，为什么会播放失败-faqs-media-6.md
+- 关键词：如何获取视频首帧画面
+  - 读取：sources/media-development/faq/0031-如何获取视频首帧画面-faqs-media-7.md
+- 关键词：录屏帧率是否有限制，如何设置最大帧率
+  - 读取：sources/media-development/faq/0032-录屏帧率是否有限制，如何设置最大帧率-faqs-media-8.md
+- 关键词：如何响应播控中心的播放模式切换
+  - 读取：sources/media-development/faq/0034-如何响应播控中心的播放模式切换-faqs-avsession-1.md
+- 关键词：应用如何更新进度条
+  - 读取：sources/media-development/faq/0035-应用如何更新进度条-faqs-avsession-2.md
+- 关键词：为什么接入播控后，播控中心部分按钮是灰色的，不可点击
+  - 读取：sources/media-development/faq/0036-为什么接入播控后，播控中心部分按钮是灰色的，不可点击-faqs-avsession-3.md
+- 关键词：能否定制播控中心界面上显示的控制元素
+  - 读取：sources/media-development/faq/0037-能否定制播控中心界面上显示的控制元素-faqs-avsession-4.md
+- 关键词：如何在播控中心显示歌词
+  - 读取：sources/media-development/faq/0038-如何在播控中心显示歌词-faqs-avsession-5.md
+- 关键词：如何做到连续投播
+  - 读取：sources/media-development/faq/0039-如何做到连续投播-faqs-avsession-6.md
+- 关键词：系统是否支持DLNA设备投屏
+  - 读取：sources/media-development/faq/0040-系统是否支持DLNA设备投屏-faqs-avsession-7.md
+- 关键词：如何自定义投播组件
+  - 读取：sources/media-development/faq/0041-如何自定义投播组件-faqs-avsession-8.md
+- 关键词：应用内如何进行输出设备的选择
+  - 读取：sources/media-development/faq/0042-应用内如何进行输出设备的选择-faqs-avsession-9.md
+- 关键词：投播成功后，本端应用内该如何显示
+  - 读取：sources/media-development/faq/0043-投播成功后，本端应用内该如何显示-faqs-avsession-10.md
+- 关键词：投播后支持哪些控制功能
+  - 读取：sources/media-development/faq/0044-投播后支持哪些控制功能-faqs-avsession-11.md
+- 关键词：在投播过程中，出现设备连接失败、启动缓慢以及回调进度卡顿等问题，可能原因是什么
+  - 读取：sources/media-development/faq/0045-在投播过程中，出现设备连接失败、启动缓慢以及回调进度卡顿等问题，可能原因是什么-faqs-avsession-12.md
+- 关键词：VideoDecoder支持的包装方式是AVCC还是AnnexB
+  - 读取：sources/media-development/faq/0047-VideoDecoder支持的包装方式是AVCC还是AnnexB-faqs-avcodec-1.md
+- 关键词：音视频文件的封装协议与编码格式有哪些
+  - 读取：sources/media-development/faq/0048-音视频文件的封装协议与编码格式有哪些-faqs-avcodec-2.md
+- 关键词：如何获取系统支持的编解码能力
+  - 读取：sources/media-development/faq/0049-如何获取系统支持的编解码能力-faqs-avcodec-4.md
+- 关键词：如何进行视频压缩
+  - 读取：sources/media-development/faq/0050-如何进行视频压缩-faqs-avsession-13.md
+- 关键词：如何将图片合成视频
+  - 读取：sources/media-development/faq/0051-如何将图片合成视频-faqs-avsession-14.md

@@ -1,0 +1,82 @@
+# ArkTS 编程语言 FAQ（线程与并发） 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：pthread创建的线程中如何读取rawfile
+  - 读取：sources/arkts-language/faq/0013-pthread创建的线程中如何读取rawfile-faqs-arkts-23.md
+- 关键词：ArkTS的SendableClass对象内存共享的原理和限制是什么
+  - 读取：sources/arkts-language/faq/0014-ArkTS的SendableClass对象内存共享的原理和限制是什么-faqs-arkts-38.md
+- 关键词：synchronized在Java中可以修饰方法，从而简单地实现方法的同步调用。在系统ets开发中，如何简单实现该功能
+  - 读取：sources/arkts-language/faq/0015-synchronized在Java中可以修饰方法，从而简单地实现方法的同步调用。在系统ets开发中，如何简单实现该功能-faqs-arkts-44.md
+- 关键词：如何将类Java语言的线程模型（内存共享）的实现方式转换成在ArkTS的线程模型下（内存隔离）的实现方式
+  - 读取：sources/arkts-language/faq/0017-如何将类Java语言的线程模型（内存共享）的实现方式转换成在ArkTS的线程模型下（内存隔离）的实现方式-faqs-arkts-46.md
+- 关键词：是否支持开发者自行管理线程数量
+  - 读取：sources/arkts-language/faq/0028-是否支持开发者自行管理线程数量-faqs-arkts-69.md
+- 关键词：如何实现Sendable类型和JSON数据的转换
+  - 读取：sources/arkts-language/faq/0053-如何实现Sendable类型和JSON数据的转换-faqs-arkts-102.md
+- 关键词：当前ArkTS是否采用类Node.js的异步I/O机制
+  - 读取：sources/arkts-language/faq/0074-当前ArkTS是否采用类Node.js的异步I-O机制-faqs-arkts-132.md
+- 关键词：对于网络请求这类I/O密集型任务是否需要使用多线程进行处理
+  - 读取：sources/arkts-language/faq/0075-对于网络请求这类I-O密集型任务是否需要使用多线程进行处理-faqs-arkts-133.md
+- 关键词：对于@ohos.net.http模块是否需要使用TaskPool处理
+  - 读取：sources/arkts-language/faq/0076-对于@ohos.net.http模块是否需要使用TaskPool处理-faqs-arkts-134.md
+- 关键词：ArkTS线程模型和并发
+  - 读取：sources/arkts-language/faq/0092-ArkTS线程模型和并发-faqs-arkts-threading-model.md
+- 关键词：有哪些创建线程的方式
+  - 读取：sources/arkts-language/faq/0093-有哪些创建线程的方式-faqs-arkts-2.md
+- 关键词：应该如何设计大量线程并发方案
+  - 读取：sources/arkts-language/faq/0094-应该如何设计大量线程并发方案-faqs-arkts-25.md
+- 关键词：如何设置Task优先级
+  - 读取：sources/arkts-language/faq/0095-如何设置Task优先级-faqs-arkts-26.md
+- 关键词：线程间JS对象通过序列化方式进行数据通信，是否存在性能问题
+  - 读取：sources/arkts-language/faq/0096-线程间JS对象通过序列化方式进行数据通信，是否存在性能问题-faqs-arkts-24.md
+- 关键词：TaskPool和Worker的异同点
+  - 读取：sources/arkts-language/faq/0097-TaskPool和Worker的异同点-faqs-arkts-27.md
+- 关键词：Worker和TaskPool的线程数量是否有限制
+  - 读取：sources/arkts-language/faq/0098-Worker和TaskPool的线程数量是否有限制-faqs-arkts-28.md
+- 关键词：JS线程通过napi创建的C++线程的处理结果，如何返回JS线程
+  - 读取：sources/arkts-language/faq/0099-JS线程通过napi创建的C++线程的处理结果，如何返回JS线程-faqs-arkts-30.md
+- 关键词：系统多线程模型是什么样的
+  - 读取：sources/arkts-language/faq/0100-系统多线程模型是什么样的-faqs-arkts-32.md
+- 关键词：是否支持Context跨线程传递
+  - 读取：sources/arkts-language/faq/0101-是否支持Context跨线程传递-faqs-arkts-33.md
+- 关键词：在多线程并发场景中，如何实现安全访问同一块共享内存
+  - 读取：sources/arkts-language/faq/0102-在多线程并发场景中，如何实现安全访问同一块共享内存-faqs-arkts-34.md
+- 关键词：子线程和主线程的优先级及任务执行策略是什么
+  - 读取：sources/arkts-language/faq/0103-子线程和主线程的优先级及任务执行策略是什么-faqs-arkts-35.md
+- 关键词：ArkTS中Worker线程、TaskPool线程如何与宿主线程通信
+  - 读取：sources/arkts-language/faq/0104-ArkTS中Worker线程、TaskPool线程如何与宿主线程通信-faqs-arkts-36.md
+- 关键词：ArkTS是否支持类似Java的共享内存模型进行多线程开发
+  - 读取：sources/arkts-language/faq/0105-ArkTS是否支持类似Java的共享内存模型进行多线程开发-faqs-arkts-37.md
+- 关键词：ArkTS的线程机制是怎么样的？每个线程是一个单独的JS引擎吗？如果每个线程开销较小的话，为什么要限制线程数量
+  - 读取：sources/arkts-language/faq/0106-ArkTS的线程机制是怎么样的？每个线程是一个单独的JS引擎吗？如果每个线程开销较小的话，为什么要限制线程数量-faqs-arkts-39.md
+- 关键词：TaskPool在任务执行过程中如何跟主线程进行通信？如何操作同一块内存变量
+  - 读取：sources/arkts-language/faq/0107-TaskPool在任务执行过程中如何跟主线程进行通信？如何操作同一块内存变量-faqs-arkts-40.md
+- 关键词：对于多线程操作首选项和数据库是不是线程安全的？还是每一个线程独立的
+  - 读取：sources/arkts-language/faq/0108-对于多线程操作首选项和数据库是不是线程安全的？还是每一个线程独立的-faqs-arkts-41.md
+- 关键词：如果在ArkTS中大部分后台任务（计算、埋点、数据存储）都使用异步并发的方式，是否会使主线程响应变慢，引起卡顿掉帧问题
+  - 读取：sources/arkts-language/faq/0109-如果在ArkTS中大部分后台任务（计算、埋点、数据存储）都使用异步并发的方式，是否会使主线程响应变慢，引起卡顿掉帧问题-faqs-arkts-42.md
+- 关键词：在ArkTS的主线程中使用await会阻塞主线程吗
+  - 读取：sources/arkts-language/faq/0110-在ArkTS的主线程中使用await会阻塞主线程吗-faqs-arkts-43.md
+- 关键词：是否可以在TaskPool中动态加载模块（HAR、HSP、SO）
+  - 读取：sources/arkts-language/faq/0111-是否可以在TaskPool中动态加载模块（HAR、HSP、SO）-faqs-arkts-47.md
+- 关键词：TaskPool线程内存如何共享
+  - 读取：sources/arkts-language/faq/0112-TaskPool线程内存如何共享-faqs-arkts-58.md
+- 关键词：TaskPool后台I/O任务池，应用能否自行做管控？是否有方法开放管理机制
+  - 读取：sources/arkts-language/faq/0113-TaskPool后台I-O任务池，应用能否自行做管控？是否有方法开放管理机制-faqs-arkts-59.md
+- 关键词：如何解决应用需要避免创建过多线程，并发处理任务数量受限，无法充分发挥设备性能的问题
+  - 读取：sources/arkts-language/faq/0114-如何解决应用需要避免创建过多线程，并发处理任务数量受限，无法充分发挥设备性能的问题-faqs-arkts-60.md
+- 关键词：Worker线程内存如何共享
+  - 读取：sources/arkts-language/faq/0115-Worker线程内存如何共享-faqs-arkts-66.md
+- 关键词：如何判断是否为主线程
+  - 读取：sources/arkts-language/faq/0116-如何判断是否为主线程-faqs-arkts-68.md
+- 关键词：如何对异步方法进行插桩/替换
+  - 读取：sources/arkts-language/faq/0117-如何对异步方法进行插桩-替换-faqs-arkts-100.md
+- 关键词：ArkTS实现多Worker实例
+  - 读取：sources/arkts-language/faq/0118-ArkTS实现多Worker实例-faqs-arkts-103.md
+- 关键词：如何使用TaskPool在子线程调用对象成员函数
+  - 读取：sources/arkts-language/faq/0119-如何使用TaskPool在子线程调用对象成员函数-faqs-arkts-120.md
+- 关键词：如何在Worker中开启多级子线程
+  - 读取：sources/arkts-language/faq/0120-如何在Worker中开启多级子线程-faqs-arkts-121.md
+- 关键词：如何在TaskPool和Worker获取上下文Context
+  - 读取：sources/arkts-language/faq/0121-如何在TaskPool和Worker获取上下文Context-faqs-arkts-122.md

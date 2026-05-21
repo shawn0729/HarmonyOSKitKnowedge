@@ -1,0 +1,42 @@
+# 扫码服务 FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何添加“扫码直达”服务的快速入口
+  - 读取：sources/scan-code/faq/0001-如何添加“扫码直达”服务的快速入口-scan-faq-1.md
+- 关键词：扫码直达跳转失败
+  - 读取：sources/scan-code/faq/0002-扫码直达跳转失败-scan-faq-2.md
+- 关键词：Scan Kit无法识别多个码图
+  - 读取：sources/scan-code/faq/0003-Scan-Kit无法识别多个码图-scan-faq-3.md
+- 关键词：上传软件包时提示“上传的软件包与声明支持设备不一致”
+  - 读取：sources/scan-code/faq/0004-上传软件包时提示“上传的软件包与声明支持设备不一致”-scan-faq-4.md
+- 关键词：相册扫码识别多码失败
+  - 读取：sources/scan-code/faq/0005-相册扫码识别多码失败-scan-faq-5.md
+- 关键词：条形码识别错误
+  - 读取：sources/scan-code/faq/0006-条形码识别错误-scan-faq-6.md
+- 关键词：条形码识别坐标信息为空
+  - 读取：sources/scan-code/faq/0007-条形码识别坐标信息为空-scan-faq-7.md
+- 关键词：自定义界面扫码预览画面出现拉伸
+  - 读取：sources/scan-code/faq/0008-自定义界面扫码预览画面出现拉伸-scan-faq-8.md
+- 关键词：自定义界面扫码黑屏现象
+  - 读取：sources/scan-code/faq/0009-自定义界面扫码黑屏现象-scan-faq-9.md
+- 关键词：自定义界面扫码如何连续扫码（customScan.rescan）
+  - 读取：sources/scan-code/faq/0010-自定义界面扫码如何连续扫码（customScan.rescan）-scan-faq-10.md
+- 关键词：通过字节数组生成码图无法识别
+  - 读取：sources/scan-code/faq/0011-通过字节数组生成码图无法识别-scan-faq-11.md
+- 关键词：默认界面扫码取消后，如何感知
+  - 读取：sources/scan-code/faq/0012-默认界面扫码取消后，如何感知-scan-faq-12.md
+- 关键词：H5场景如何接入扫码
+  - 读取：sources/scan-code/faq/0013-H5场景如何接入扫码-scan-faq-13.md
+- 关键词：如何主动通过手势缩放变焦比
+  - 读取：sources/scan-code/faq/0014-如何主动通过手势缩放变焦比-scan-faq-14.md
+- 关键词：自定义界面扫码如何实现扫码框
+  - 读取：sources/scan-code/faq/0015-自定义界面扫码如何实现扫码框-scan-faq-15.md
+- 关键词：默认界面扫码/自定义界面扫码体验设计
+  - 读取：sources/scan-code/faq/0016-默认界面扫码-自定义界面扫码体验设计-scan-faq-16.md
+- 关键词：自定义界面扫码如何增加重试机制
+  - 读取：sources/scan-code/faq/0017-自定义界面扫码如何增加重试机制-scan-faq-17.md
+- 关键词：自定义界面扫码同时调用本地图片识码时，应用概率性自动退出
+  - 读取：sources/scan-code/faq/0018-自定义界面扫码同时调用本地图片识码时，应用概率性自动退出-scan-faq-18.md
+- 关键词：如何将码图背景颜色设置成透明色
+  - 读取：sources/scan-code/faq/0019-如何将码图背景颜色设置成透明色-scan-faq-19.md

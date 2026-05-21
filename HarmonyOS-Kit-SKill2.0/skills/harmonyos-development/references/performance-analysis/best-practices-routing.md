@@ -1,0 +1,130 @@
+# 性能分析 最佳实践 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：性能概览
+  - 读取：sources/performance-analysis/best-practices/0001-性能概览-bpta-performance-guide-reading.md
+- 关键词：性能体验设计
+  - 读取：sources/performance-analysis/best-practices/0002-性能体验设计-bpta-smooth-application-design.md
+- 关键词：性能检测
+  - 读取：sources/performance-analysis/best-practices/0003-性能检测-bpta-detection.md
+- 关键词：开发态性能检测
+  - 读取：sources/performance-analysis/best-practices/0004-开发态性能检测-bpta-performance-detection.md
+- 关键词：运行态性能检测
+  - 读取：sources/performance-analysis/best-practices/0005-运行态性能检测-bpta-performance-runtime-detection.md
+- 关键词：启动耗时类问题检测方法
+  - 读取：sources/performance-analysis/best-practices/0006-启动耗时类问题检测方法-bpta-performance-startup-time-detection.md
+- 关键词：主线程超时类问题检测方法
+  - 读取：sources/performance-analysis/best-practices/0007-主线程超时类问题检测方法-bpta-performance-mainthread-consumption-detection.md
+- 关键词：滑动丢帧类问题检测方法
+  - 读取：sources/performance-analysis/best-practices/0008-滑动丢帧类问题检测方法-bpta-performance-sliding-frame-drop-detection.md
+- 关键词：性能分析
+  - 读取：sources/performance-analysis/best-practices/0009-性能分析-bpta-optimization-tool-practice.md
+- 关键词：性能分析简介
+  - 读取：sources/performance-analysis/best-practices/0010-性能分析简介-bpta-optimization-overview.md
+- 关键词：点击响应时延分析
+  - 读取：sources/performance-analysis/best-practices/0011-点击响应时延分析-bpta-click-to-click-response-optimization.md
+- 关键词：点击完成时延分析
+  - 读取：sources/performance-analysis/best-practices/0012-点击完成时延分析-bpta-click-to-complete-delay-analysis.md
+- 关键词：帧率问题分析
+  - 读取：sources/performance-analysis/best-practices/0013-帧率问题分析-bpta-zhenlv.md
+- 关键词：Web点击响应时延分析
+  - 读取：sources/performance-analysis/best-practices/0014-Web点击响应时延分析-bpta-web-click-response-delay-analysis.md
+- 关键词：Web加载完成时延分析
+  - 读取：sources/performance-analysis/best-practices/0015-Web加载完成时延分析-bpta-web-completion-delay-analysis.md
+- 关键词：跨线程序列化耗时问题分析
+  - 读取：sources/performance-analysis/best-practices/0016-跨线程序列化耗时问题分析-bpta-threads-serialization-timeout-analysis.md
+- 关键词：分析内存占用问题
+  - 读取：sources/performance-analysis/best-practices/0017-分析内存占用问题-bpta-analyze-memory-problem.md
+- 关键词：内存基础知识
+  - 读取：sources/performance-analysis/best-practices/0018-内存基础知识-bpta-memory-basic-knowledge.md
+- 关键词：获取进程内存信息
+  - 读取：sources/performance-analysis/best-practices/0019-获取进程内存信息-bpta-retrieve-process-memory-info.md
+- 关键词：分析ArkTS/JS内存
+  - 读取：sources/performance-analysis/best-practices/0020-分析ArkTS-JS内存-bpta-arkts-js-memory-analysis.md
+- 关键词：分析native内存
+  - 读取：sources/performance-analysis/best-practices/0021-分析native内存-bpta-native-memory-analysis.md
+- 关键词：分析内核态内存
+  - 读取：sources/performance-analysis/best-practices/0022-分析内核态内存-bpta-kernel-memory-analysis.md
+- 关键词：分析任务执行超时问题
+  - 读取：sources/performance-analysis/best-practices/0023-分析任务执行超时问题-bpta-permission-timeout-analysis.md
+- 关键词：性能优化
+  - 读取：sources/performance-analysis/best-practices/0024-性能优化-bpta-performance-optimization.md
+- 关键词：感知流畅优化
+  - 读取：sources/performance-analysis/best-practices/0025-感知流畅优化-bpta-perceived-smoothness.md
+- 关键词：渲染范围控制
+  - 读取：sources/performance-analysis/best-practices/0026-渲染范围控制-bpta-control-rendering-range.md
+- 关键词：布局节点减少
+  - 读取：sources/performance-analysis/best-practices/0027-布局节点减少-bpta-reduce-layout-nodes.md
+- 关键词：组件绘制优化
+  - 读取：sources/performance-analysis/best-practices/0028-组件绘制优化-bpta-pptimized-component-drawing.md
+- 关键词：状态刷新控制
+  - 读取：sources/performance-analysis/best-practices/0029-状态刷新控制-bpta-state-refresh.md
+- 关键词：动画帧率优化
+  - 读取：sources/performance-analysis/best-practices/0030-动画帧率优化-bpta-animation-frame.md
+- 关键词：并发能力使用
+  - 读取：sources/performance-analysis/best-practices/0031-并发能力使用-bpta-concurrency-capability.md
+- 关键词：资源提前加载
+  - 读取：sources/performance-analysis/best-practices/0032-资源提前加载-bpta-preloading-resources.md
+- 关键词：运行效率提高
+  - 读取：sources/performance-analysis/best-practices/0033-运行效率提高-bpta-improve-running-efficiency.md
+- 关键词：耗时操作减少
+  - 读取：sources/performance-analysis/best-practices/0034-耗时操作减少-bpta-reduce-time-consuming.md
+- 关键词：操作延时触发
+  - 读取：sources/performance-analysis/best-practices/0035-操作延时触发-bpta-delayed-trigger-operation.md
+- 关键词：性能场景优化案例
+  - 读取：sources/performance-analysis/best-practices/0036-性能场景优化案例-bpta-scenario-performance-optimization.md
+- 关键词：界面渲染性能优化
+  - 读取：sources/performance-analysis/best-practices/0037-界面渲染性能优化-bpta-developing-high-performance-ui.md
+- 关键词：组件嵌套优化
+  - 读取：sources/performance-analysis/best-practices/0038-组件嵌套优化-bpta-component-nesting-optimization.md
+- 关键词：懒加载优化性能
+  - 读取：sources/performance-analysis/best-practices/0039-懒加载优化性能-bpta-lazyforeach-optimization.md
+- 关键词：UI组件性能优化
+  - 读取：sources/performance-analysis/best-practices/0040-UI组件性能优化-bpta-ui-component-performance-optimization.md
+- 关键词：主线程耗时操作优化
+  - 读取：sources/performance-analysis/best-practices/0041-主线程耗时操作优化-bpta-time-optimization-of-the-main-thread.md
+- 关键词：高负载场景分帧渲染
+  - 读取：sources/performance-analysis/best-practices/0042-高负载场景分帧渲染-bpta-dispose-highly-loaded-component-render.md
+- 关键词：长列表加载丢帧优化
+  - 读取：sources/performance-analysis/best-practices/0043-长列表加载丢帧优化-bpta-best-practices-long-list.md
+- 关键词：瀑布流加载丢帧优化
+  - 读取：sources/performance-analysis/best-practices/0044-瀑布流加载丢帧优化-bpta-waterflow-performance-optimization.md
+- 关键词：Grid组件加载丢帧优化
+  - 读取：sources/performance-analysis/best-practices/0045-Grid组件加载丢帧优化-bpta-improve_grid_performance.md
+- 关键词：Swiper组件加载丢帧优化
+  - 读取：sources/performance-analysis/best-practices/0046-Swiper组件加载丢帧优化-bpta-swiper_high_performance_development_guide.md
+- 关键词：应用启动与响应优化
+  - 读取：sources/performance-analysis/best-practices/0047-应用启动与响应优化-bpta-startup-response-optimization.md
+- 关键词：应用冷启动时延优化
+  - 读取：sources/performance-analysis/best-practices/0048-应用冷启动时延优化-bpta-application-cold-start-optimization.md
+- 关键词：应用时延优化
+  - 读取：sources/performance-analysis/best-practices/0049-应用时延优化-bpta-application-latency-optimization-cases.md
+- 关键词：资源与存储优化
+  - 读取：sources/performance-analysis/best-practices/0050-资源与存储优化-bpta-resource-and-storage-optimization.md
+- 关键词：应用包体积优化
+  - 读取：sources/performance-analysis/best-practices/0051-应用包体积优化-bpta-decrease_pakage_size.md
+- 关键词：应用内存占用优化
+  - 读取：sources/performance-analysis/best-practices/0052-应用内存占用优化-bpta-memory-optimization.md
+- 关键词：图片资源加载优化
+  - 读取：sources/performance-analysis/best-practices/0053-图片资源加载优化-bpta-texture-compression-improve-performance.md
+- 关键词：文件上传下载优化
+  - 读取：sources/performance-analysis/best-practices/0054-文件上传下载优化-bpta-file-upload-and-download-performance.md
+- 关键词：Web性能优化
+  - 读取：sources/performance-analysis/best-practices/0055-Web性能优化-bpta-web-performance-optimization.md
+- 关键词：Web加载性能优化
+  - 读取：sources/performance-analysis/best-practices/0056-Web加载性能优化-bpta-web-develop-optimization.md
+- 关键词：专项问题解决方案
+  - 读取：sources/performance-analysis/best-practices/0057-专项问题解决方案-bpta-solutions-to-special-issues.md
+- 关键词：应用闪屏解决方案
+  - 读取：sources/performance-analysis/best-practices/0058-应用闪屏解决方案-bpta-screen-flicker-solution.md
+- 关键词：Image白块解决方案
+  - 读取：sources/performance-analysis/best-practices/0059-Image白块解决方案-bpta-image-white-lump-solution.md
+- 关键词：对象序列化性能优化
+  - 读取：sources/performance-analysis/best-practices/0060-对象序列化性能优化-bpta-object-serialization-performance.md
+- 关键词：高性能JSON解析
+  - 读取：sources/performance-analysis/best-practices/0061-高性能JSON解析-bpta-high-performance-json-parsing.md
+- 关键词：高性能Protobuf解析
+  - 读取：sources/performance-analysis/best-practices/0062-高性能Protobuf解析-bpta-high-performance-protobuf-parsing.md
+- 关键词：并行化性能优化
+  - 读取：sources/performance-analysis/best-practices/0063-并行化性能优化-bpta-concurrent-optimization.md

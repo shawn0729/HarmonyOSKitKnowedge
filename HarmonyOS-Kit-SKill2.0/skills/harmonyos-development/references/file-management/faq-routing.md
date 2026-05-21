@@ -1,0 +1,86 @@
+# 文件管理 FAQ 标题路由
+
+本文件只使用 Markdown 一级标题作为路由关键词。命中后必须读取对应 sources/ 原文。
+
+- 关键词：如何使用Zip模块解压项目目录rawfile中的文件至应用的沙箱目录中
+  - 读取：sources/file-management/faq/0001-如何使用Zip模块解压项目目录rawfile中的文件至应用的沙箱目录中-faqs-local-file-manager-1.md
+- 关键词：如何实现文件不存在则创建文件
+  - 读取：sources/file-management/faq/0002-如何实现文件不存在则创建文件-faqs-local-file-manager-3.md
+- 关键词：如何解决文件的中文乱码问题
+  - 读取：sources/file-management/faq/0003-如何解决文件的中文乱码问题-faqs-local-file-manager-4.md
+- 关键词：如何修改沙箱路径下json文件的指定内容
+  - 读取：sources/file-management/faq/0004-如何修改沙箱路径下json文件的指定内容-faqs-local-file-manager-5.md
+- 关键词：如何将像素点保存到图片文件
+  - 读取：sources/file-management/faq/0005-如何将像素点保存到图片文件-faqs-local-file-manager-7.md
+- 关键词：应用从远程服务器下载文件的下载路径
+  - 读取：sources/file-management/faq/0006-应用从远程服务器下载文件的下载路径-faqs-local-file-manager-8.md
+- 关键词：文件分享能否使用Want配置打开具体应用，而不是显示选择窗口
+  - 读取：sources/file-management/faq/0007-文件分享能否使用Want配置打开具体应用，而不是显示选择窗口-faqs-local-file-manager-9.md
+- 关键词：系统文件管理器支持的最长文件名是多少
+  - 读取：sources/file-management/faq/0008-系统文件管理器支持的最长文件名是多少-faqs-local-file-manager-10.md
+- 关键词：fs.write是否支持utf-8之外的编码格式
+  - 读取：sources/file-management/faq/0009-fs.write是否支持utf-8之外的编码格式-faqs-local-file-manager-11.md
+- 关键词：怎么获取应用已使用的缓存大小，如何使用API清理缓存
+  - 读取：sources/file-management/faq/0010-怎么获取应用已使用的缓存大小，如何使用API清理缓存-faqs-local-file-manager-12.md
+- 关键词：Hash.hash是否支持同步接口
+  - 读取：sources/file-management/faq/0011-Hash.hash是否支持同步接口-faqs-local-file-manager-13.md
+- 关键词：el1与el2文件之间的区别
+  - 读取：sources/file-management/faq/0012-el1与el2文件之间的区别-faqs-local-file-manager-14.md
+- 关键词：如何根据fd对应的mode来判断是否有对应的操作权限
+  - 读取：sources/file-management/faq/0013-如何根据fd对应的mode来判断是否有对应的操作权限-faqs-local-file-manager-16.md
+- 关键词：手机录屏后的文件存放路径是哪里
+  - 读取：sources/file-management/faq/0014-手机录屏后的文件存放路径是哪里-faqs-local-file-manager-17.md
+- 关键词：如何导出手机的文件, 例如外部存储的文件
+  - 读取：sources/file-management/faq/0015-如何导出手机的文件,-例如外部存储的文件-faqs-local-file-manager-18.md
+- 关键词：如何保存faultLogger
+  - 读取：sources/file-management/faq/0016-如何保存faultLogger-faqs-local-file-manager-19.md
+- 关键词：如何存储文件才不会跟随app卸载而删除
+  - 读取：sources/file-management/faq/0017-如何存储文件才不会跟随app卸载而删除-faqs-local-file-manager-20.md
+- 关键词：通过fs.openSync获得的fd，传递到C侧调close后，ArkTS侧fs.closeSync是不是不用调了
+  - 读取：sources/file-management/faq/0018-通过fs.openSync获得的fd，传递到C侧调close后，ArkTS侧fs.closeSync是不是不用调了-faqs-local-file-manager-21.md
+- 关键词：如何校验文件一致性
+  - 读取：sources/file-management/faq/0019-如何校验文件一致性-faqs-local-file-manager-22.md
+- 关键词：文件路径fd和internal的区别是什么
+  - 读取：sources/file-management/faq/0020-文件路径fd和internal的区别是什么-faqs-local-file-manager-23.md
+- 关键词：使用request.uploadFile上传文件后，没有回调可以获取到服务器返回的message信息，不能明确知道文件是否上传成功
+  - 读取：sources/file-management/faq/0021-使用request.uploadFile上传文件后，没有回调可以获取到服务器返回的message信息，不能明确知道文件是否上传成功-faqs-local-file-manager-24.md
+- 关键词：如何解决调用两次fs接口写文件，但第二次写入的内容未完全覆盖第一次写入的内容的问题
+  - 读取：sources/file-management/faq/0022-如何解决调用两次fs接口写文件，但第二次写入的内容未完全覆盖第一次写入的内容的问题-faqs-local-file-manager-25.md
+- 关键词：从FilePicker返回的图片地址uri是不是只是在一定的时间内有访问权限
+  - 读取：sources/file-management/faq/0023-从FilePicker返回的图片地址uri是不是只是在一定的时间内有访问权限-faqs-local-file-manager-26.md
+- 关键词：如何从一个二进制文件中读取其字节数组？通过fs.createStreamSync只能获取到ArrayBuffer，如何转成number[]
+  - 读取：sources/file-management/faq/0024-如何从一个二进制文件中读取其字节数组？通过fs.createStreamSync只能获取到ArrayBuffer，如何转成number[]-faqs-local-file-manager-28.md
+- 关键词：fs.open读取应用沙盒路径失败
+  - 读取：sources/file-management/faq/0025-fs.open读取应用沙盒路径失败-faqs-local-file-manager-29.md
+- 关键词：如何获取到resources下rawfile 的文件
+  - 读取：sources/file-management/faq/0026-如何获取到resources下rawfile-的文件-faqs-local-file-manager-30.md
+- 关键词：报错“the parameters check fails this is fail path”如何解决
+  - 读取：sources/file-management/faq/0027-报错“the-parameters-check-fails-this-is-fail-path”如何解决-faqs-local-file-manager-31.md
+- 关键词：字体管理器中注册自定义字体时字体文件的路径如何填写
+  - 读取：sources/file-management/faq/0028-字体管理器中注册自定义字体时字体文件的路径如何填写-faqs-local-file-manager-32.md
+- 关键词：native如何获取沙箱路径
+  - 读取：sources/file-management/faq/0029-native如何获取沙箱路径-faqs-local-file-manager-33.md
+- 关键词：照片和视频都存储在什么路径
+  - 读取：sources/file-management/faq/0030-照片和视频都存储在什么路径-faqs-local-file-manager-34.md
+- 关键词：如何将数据持续写入文件内
+  - 读取：sources/file-management/faq/0031-如何将数据持续写入文件内-faqs-local-file-manager-35.md
+- 关键词：应用安装后，HAP文件在哪个目录路径
+  - 读取：sources/file-management/faq/0032-应用安装后，HAP文件在哪个目录路径-faqs-local-file-manager-36.md
+- 关键词：手机应用开发是否允许自行设置是否备份自身数据
+  - 读取：sources/file-management/faq/0033-手机应用开发是否允许自行设置是否备份自身数据-faqs-local-file-manager-37.md
+- 关键词：fs.write返回的长度和本身content长度不一致
+  - 读取：sources/file-management/faq/0034-fs.write返回的长度和本身content长度不一致-faqs-local-file-manager-39.md
+- 关键词：如何获取文件的扩展名
+  - 读取：sources/file-management/faq/0035-如何获取文件的扩展名-faqs-local-file-manager-40.md
+- 关键词：获取公共下载目录API不可用
+  - 读取：sources/file-management/faq/0036-获取公共下载目录API不可用-faqs-local-file-manager-41.md
+- 关键词：不同类型的Context获取fileDir目录的结果不一致
+  - 读取：sources/file-management/faq/0037-不同类型的Context获取fileDir目录的结果不一致-faqs-local-file-manager-42.md
+- 关键词：如何读取指定文件内容，并转为具体对象
+  - 读取：sources/file-management/faq/0038-如何读取指定文件内容，并转为具体对象-faqs-local-file-manager-44.md
+- 关键词：如何判断文件是不是目录
+  - 读取：sources/file-management/faq/0039-如何判断文件是不是目录-faqs-local-file-manager-45.md
+- 关键词：解决冷启动picker选择器无权限问题
+  - 读取：sources/file-management/faq/0040-解决冷启动picker选择器无权限问题-faqs-local-file-manager-46.md
+- 关键词：如何创建临时文件
+  - 读取：sources/file-management/faq/0041-如何创建临时文件-faqs-local-file-manager-47.md
