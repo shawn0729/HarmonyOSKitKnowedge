@@ -1,3 +1,0 @@
-# purchaseToken和purchaseOrderId这两个参数的最大长度是多少？
-
-purchaseToken和purchaseOrderId最大长度不超过256。
