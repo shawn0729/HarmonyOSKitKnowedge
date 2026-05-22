@@ -1,0 +1,16 @@
+[
+  {
+    "section": "3 最佳实践-组件封装与复用",
+    "title": "组件动态创建",
+    "url": "https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-ui-dynamic-operations",
+    "output": "extracted-docs-test/3-最佳实践-组件封装与复用/0001-组件动态创建-bpta-ui-dynamic-operations.md",
+    "status": "ok"
+  },
+  {
+    "section": "3 最佳实践-组件封装与复用",
+    "title": "组件封装",
+    "url": "https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-ui-component-encapsulation",
+    "output": "extracted-docs-test/3-最佳实践-组件封装与复用/0002-组件封装-bpta-ui-component-encapsulation.md",
+    "status": "ok"
+  }
+]

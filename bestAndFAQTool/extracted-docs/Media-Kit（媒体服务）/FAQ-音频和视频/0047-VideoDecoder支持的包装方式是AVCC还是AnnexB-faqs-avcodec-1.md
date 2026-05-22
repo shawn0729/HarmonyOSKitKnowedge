@@ -1,0 +1,3 @@
+# VideoDecoder支持的包装方式是AVCC还是AnnexB
+
+VideoDecoder支持AnnexB格式。

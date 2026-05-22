@@ -1,0 +1,17 @@
+{
+  "name": "web-to-markdown",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "batch-web-to-md": "./src/batch-web-to-md.js",
+    "web-to-md": "./src/web-to-md.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0",
+    "playwright": "^1.52.0"
+  }
+}
